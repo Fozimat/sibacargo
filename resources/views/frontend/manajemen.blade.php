@@ -4,7 +4,7 @@
 <div class="page-banner-wrap text-center bg-cover" style="background-image: url('assets/img/page-banner2.jpg')">
     <div class="container">
         <div class="page-heading text-white">
-            <h1>Sejarah Perusahaan</h1>
+            <h1>Kantor Agen dan Cabang</h1>
         </div>
     </div>
 </div>
@@ -14,7 +14,7 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Tentang</a></li>
                 <li class="breadcrumb-item active" aria-current="page">
-                    Sejarah Perusahaan
+                    Manajemen Kami
                 </li>
             </ol>
         </nav>
@@ -34,7 +34,7 @@
                     <div class="section-title">
                         <h5 class="textleft relative">Tentang</h5>
                         <span>Siba Cargo</span>
-                        <h2>Sejarah <span>Perusahaan</span></h2>
+                        <h2>Manajemen<span> Kami</span></h2>
                     </div>
                 </div>
             </div>
