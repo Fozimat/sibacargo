@@ -1,0 +1,15 @@
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/modernizr.min.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/imageload.min.js"></script>
+<script src="assets/js/scrollUp.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/slick-animation.min.js"></script>
+<script src="assets/js/magnific-popup.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/metismenu.js"></script>
+<script src="assets/js/nice-select2.js"></script>
+<script src="assets/js/active.js"></script>
