@@ -59,9 +59,9 @@ class KategoriController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Kategori $kategori)
     {
-        //
+        return view('backend.kategori.edit', compact(['kategori']));
     }
 
     /**
@@ -71,9 +71,10 @@ class KategoriController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(FormKategoriRequest $request, Kategori $kategori)
     {
-        //
+        $kategori->update($request->all());
+        return redirect()->route('kategori.index')->with('flash', 'Kategori berhasil diubah');
     }
 
     /**
@@ -82,8 +83,9 @@ class KategoriController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Kategori $kategori)
     {
-        //
+        $kategori->delete();
+        return redirect()->route('kategori.index')->with('flash', 'Kategori berhasil dihapus');
     }
 }

@@ -1,7 +1,7 @@
 @extends('backend.template')
 
 @section('title')
-Kategori
+Ubah Kategori
 @endsection
 
 @section('content')
@@ -16,7 +16,7 @@ Kategori
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Tambah Kategori</h3>
+                    <h3>Ubah Kategori</h3>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -35,15 +35,16 @@ Kategori
                     <div class="card">
                         <div class="card-content">
                             <div class="card-body">
-                                <form class="form" action="{{ route('kategori.store') }}" method="POST">
+                                <form class="form" action="{{ route('kategori.update', $kategori->id) }}" method="POST">
                                     @csrf
+                                    @method('PUT')
                                     <div class="row">
                                         <div class="col-md-12 col-12">
                                             <div class="form-group">
                                                 <label for="nama_kategori">Kategori</label>
                                                 <input type="text" id="nama_kategori"
                                                     class="form-control @error('nama_kategori') is-invalid @enderror"
-                                                    name="nama_kategori" value="{{ old('nama_kategori') }}">
+                                                    name="nama_kategori" value="{{ $kategori->nama_kategori }}">
                                                 @error('nama_kategori')
                                                 <div class="invalid-feedback">
                                                     {{ $message }}
@@ -52,9 +53,7 @@ Kategori
                                             </div>
                                         </div>
                                         <div class="col-12 d-flex justify-content-end">
-                                            <button type="submit" class="btn btn-primary me-1 mb-1">Simpan</button>
-                                            <button type="reset"
-                                                class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                            <button type="submit" class="btn btn-primary me-1 mb-1">Ubah</button>
                                         </div>
                                     </div>
                                 </form>

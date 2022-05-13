@@ -69,8 +69,16 @@ Kategori
                                 <td>{{ $loop->iteration }}</td>
                                 <td>{{ $k->nama_kategori }}</td>
                                 <td>
-                                    <a href="#" class="btn btn-success rounded-pill">ubah</a>
-                                    <a href="#" class="btn btn-danger rounded-pill">hapus</a>
+                                    <a href="{{ route('kategori.edit', $k->id) }}"
+                                        class="btn btn-success rounded-pill">ubah</a>
+                                    <form class="d-inline" action="{{ route('kategori.destroy', $k->id) }}"
+                                        method="POST">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit"
+                                            onclick="return confirm('Apakah anda yakin ingin menghapus?')"
+                                            class="btn btn-danger rounded-pill">hapus</button>
+                                    </form>
                                 </td>
                             </tr>
                             @endforeach
