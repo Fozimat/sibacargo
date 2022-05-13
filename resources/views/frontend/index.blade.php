@@ -14,8 +14,8 @@
                                 Ingat Logistik <span>Ingat Siba Cargo</span>
                             </h1>
                             <p class="pe-lg-5 mb-4 animated" data-animation-in="fadeInRight" data-delay-in="0.5">
-                                We are committed to providing our customers with exceptional
-                                service while offering our employees
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolores ea excepturi
+                                aliquam ex.
                             </p>
                             <a href="contact.html" data-animation-in="fadeInRight" data-delay-in="0.8"
                                 class="theme-btn border-style me-sm-4 mt-4 animated">Cek Tarif</a>
@@ -45,8 +45,8 @@
                                 Solusi Terbaik <span>Pengiriman Barang Anda</span>
                             </h1>
                             <p class="pe-lg-5 mb-4" data-animation-in="fadeInRight" data-delay-in="0.5">
-                                We are committed to providing our customers with exceptional
-                                service while offering our employees
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem magni doloremque
+                                atque quae similique nostrum!
                             </p>
                             <a href="contact.html" data-animation-in="fadeInRight" data-delay-in="0.8"
                                 class="theme-btn border-style me-sm-4 mt-4">Lacak Paket</a>
