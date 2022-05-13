@@ -107,8 +107,8 @@
                         <li class="submenu-item  {{ request()->is('admin/blog/kategori*') ? 'active' : '' }}">
                             <a href="{{ route('kategori.index') }}">Kategori</a>
                         </li>
-                        <li class="submenu-item ">
-                            <a href="#">Posting</a>
+                        <li class="submenu-item {{ request()->is('admin/blog/postingan*') ? 'active' : '' }}">
+                            <a href="{{ route('postingan.index') }}">Posting</a>
                         </li>
                     </ul>
                 </li>

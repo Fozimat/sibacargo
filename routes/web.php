@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\KategoriController;
+use App\Http\Controllers\Admin\PostinganController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,5 +44,6 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
     Route::prefix('blog')->group(function () {
         Route::resource('kategori', KategoriController::class);
+        Route::resource('postingan', PostinganController::class);
     });
 });

@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Postingan extends Model
 {
     use HasFactory;
+    protected $table = 'postingan';
+    protected $guarded = '';
+
+    public function kategori()
+    {
+        return $this->belongsTo(Kategori::class, 'id_kategori', 'id');
+    }
 }

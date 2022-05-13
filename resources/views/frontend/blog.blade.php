@@ -4,7 +4,7 @@
 <div class="page-banner-wrap text-center bg-cover" style="background-image: url('assets/img/page-banner.jpg')">
     <div class="container">
         <div class="page-heading text-white">
-            <h1>News</h1>
+            <h1>Blog</h1>
         </div>
     </div>
 </div>
@@ -13,7 +13,7 @@
         <nav>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">news</li>
+                <li class="breadcrumb-item active" aria-current="page">blog</li>
             </ol>
         </nav>
     </div>
