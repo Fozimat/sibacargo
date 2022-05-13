@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +36,8 @@ Route::get('/videos', [App\Http\Controllers\HomeController::class, 'videos'])->n
 
 // Blog
 Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('blog');
+
+// Admin
+Route::prefix('admin')->middleware(['auth'])->group(function () {
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+});
