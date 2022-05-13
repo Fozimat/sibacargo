@@ -98,13 +98,13 @@
                     </a>
                 </li>
 
-                <li class="sidebar-item active has-sub">
+                <li class="sidebar-item  {{ request()->is('admin/blog*') ? 'active' : '' }} has-sub">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-caret-up-square-fill"></i>
                         <span>Blog</span>
                     </a>
                     <ul class="submenu ">
-                        <li class="submenu-item active">
+                        <li class="submenu-item  {{ request()->is('admin/blog/kategori*') ? 'active' : '' }}">
                             <a href="{{ route('kategori.index') }}">Kategori</a>
                         </li>
                         <li class="submenu-item ">
