@@ -90,9 +90,8 @@
                     <div class="col-md-8 col-12">
                         <div class="copy-rights">
                             <p>
-                                &copy;2022
-                                <strong> PT. WAJAH SIBA NUSANTARA © 2022.</strong>, Jasa
-                                Ekspedisi Murah
+                                <strong> PT. WAJAH SIBA NUSANTARA </strong> ©{{ date('Y') }}.
+                                Jasa Ekspedisi Murah
                             </p>
                         </div>
                     </div>

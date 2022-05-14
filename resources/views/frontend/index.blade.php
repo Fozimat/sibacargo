@@ -117,9 +117,8 @@
         <div class="col-12 col-lg-12 mb-40">
             <div class="block-contents text-center">
                 <div class="section-title">
-                    <h5>Pelayanan</h5>
-                    <span>Layanan Kami</span>
-                    <h2>Siba <span>Cargo</span></h2>
+                    <h5>Ekspedisi </h5>
+                    <h2>Kami <span>Melayani</span></h2>
                 </div>
             </div>
         </div>
@@ -324,6 +323,103 @@
     </div>
 </section>
 
+<section class="cta-wrapper section-padding bg-overlay bg-cover" style="background-image: url('assets/img/cta-bg.jpg')">
+    <div class="container">
+        <div class="col-lg-8 offset-lg-2 col-12 text-center">
+            <div class="cta-contents">
+                <img src="assets/img/footer-logo.png" alt="transland">
+                <h1 class="text-white mt-5 mb-4">World’s Leading Contract Logistics Provider</h1>
+                <a href="contact.html" class="theme-btn">make custom request</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog-wrapper section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="block-contents">
+                <div class="section-title">
+                    <h5 class="textleft">Informasi</h5>
+                    <h2>Blog &amp; <span>Berita</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-4 col-md-6 col-12">
+                <div class="single-news-box">
+                    <div class="featured-thumb bg-cover" style="background-image: url('assets/img/blog/b1.jpg')">
+                        <div class="post-cat">
+                            <a href="news.html">logistics</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="meta d-flex">
+                            <div class="author me-2">
+                                <i class="fal fa-user"></i><a href="#">Transland</a>
+                            </div>
+                            |
+                            <div class="date ms-2">
+                                <i class="fal fa-calendar-alt"></i>
+                                <span>24th June 2022</span>
+                            </div>
+                        </div>
+                        <h3><a href="news-details.html">Our Mission 2040: Zero Emissions</a></h3>
+                        <a class="read-btn" href="news-details.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <div class="single-news-box">
+                    <div class="featured-thumb bg-cover" style="background-image: url('assets/img/blog/b2.jpg')">
+                        <div class="post-cat">
+                            <a href="news.html">transport</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="meta d-flex">
+                            <div class="author me-2">
+                                <i class="fal fa-user"></i><a href="#">Salman Ahmed</a>
+                            </div>
+                            |
+                            <div class="date ms-2">
+                                <i class="fal fa-calendar-alt"></i>
+                                <span>24th June 2022</span>
+                            </div>
+                        </div>
+                        <h3><a href="news-details.html">Key Logistics Trends in Life Sciences 2021</a></h3>
+                        <a class="read-btn" href="news-details.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <div class="single-news-box">
+                    <div class="featured-thumb bg-cover" style="background-image: url('assets/img/blog/b3.jpg')">
+                        <div class="post-cat">
+                            <a href="news.html">logistics</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="meta d-flex">
+                            <div class="author me-2">
+                                <i class="fal fa-user"></i><a href="#">Transland</a>
+                            </div>
+                            |
+                            <div class="date ms-2">
+                                <i class="fal fa-calendar-alt"></i>
+                                <span>24th June 2022</span>
+                            </div>
+                        </div>
+                        <h3><a href="news-details.html">5 Benefits of Working with a Freight Broker</a></h3>
+                        <a class="read-btn" href="news-details.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <div class="video-pop-up-wrapper section-padding bg-cover"
     style="background-image: url('assets/img/full-video-bg2.jpg')">
     <div class="container">
@@ -337,4 +433,83 @@
         </div>
     </div>
 </div>
+
+<section class="brand-showcase-wrapper section-padding bg-contain bg-center"
+    style="background-image: url('assets/img/dot_map.png')">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="block-contents mb-60">
+                <div class="section-title text-center">
+                    <h5 class="text-center">Partners</h5>
+                    <span>clients</span>
+                    <h2>Mereka <span>yang mempercayai kami</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/1.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/2.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/3.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/4.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/5.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/6.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/7.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/8.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/9.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/10.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/11.jpg" alt="transland">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-12">
+                <div class="single-brand-logo">
+                    <img src="assets/img/brand/12.jpg" alt="transland">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection
