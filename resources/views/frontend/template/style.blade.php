@@ -17,3 +17,5 @@
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 <!--  main style css file -->
 <link rel="stylesheet" href="assets/css/style.css" />
+<!--  Custom css file -->
+<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}" />

@@ -61,8 +61,6 @@ class HomeController extends Controller
         return view('frontend.videos');
     }
 
-
-
     public function blog()
     {
         return view('frontend.blog');

@@ -3,6 +3,7 @@
 <script src="assets/js/jquery.easing.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
 <script src="assets/js/isotope.pkgd.min.js"></script>
 <script src="assets/js/imageload.min.js"></script>
 <script src="assets/js/scrollUp.min.js"></script>

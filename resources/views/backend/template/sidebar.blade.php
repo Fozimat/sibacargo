@@ -44,7 +44,7 @@
                             <a href="#">Mitra Kami</a>
                         </li>
                         <li class="submenu-item ">
-                            <a href="#">Portfolio</a>
+                            <a href="{{ route('portfolio') }}">Portfolio</a>
                         </li>
                         <li class="submenu-item ">
                             <a href="#">Videos</a>

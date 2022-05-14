@@ -93,11 +93,18 @@
                 </div>
                 <div class="about-info-contents">
                     <p style="text-align: justify; text-justify: inter-word">
-                        <span style="color: #0077c3; font-weight: 900">SIBA CARGO </span>merupakan perusahaan jasa
-                        pengiriman cepat dalam layanan cargo
-                        Laut, Darat, dan Udara. Berpengalaman sejak 2018 dan telah
-                        memiliki kantor cabang di Batam, Jakarta, Pekanbaru dan Agen
-                        Perwakilan di kota lainnya.
+                        <span style="color: #0077c3; font-weight: 900">PT. Wajah SIBA Nusantara </span>merupakan
+                        perusahaan jasa pengiriman barang di indonesia yang berlokasi di Jakarta, Bekasi, Bandung,
+                        Tanjungpinang, Bintan, Batam dan lainnya serta memiliki perwakilan agen/ cabang
+                        di seluruh kota besar di indonesia. Yang berorientasi pada kepuasaan pelanggan dan selalu
+                        berusaha memenuhi permintaan pasar dalam hal pelayanan jasa pengiriman murah dan harga
+                        pengiriman yang terjangkau dengan pelayanan terbaik.
+                    </p>
+                    <p style="text-align: justify; text-justify: inter-word">
+                        <span style="color: #0077c3; font-weight: 900">SIBA CARGO </span>terdiri dari
+                        sumber daya manusia yang berpengalaman dan konsisten di bidang jasa pengiriman/ expedisi cargo
+                        dengan dukungan tenaga yang profesional dan terlatih menjadikan barang kiriman anda tiba di
+                        tujuan dengan cepat dan aman.
                     </p>
                 </div>
             </div>
