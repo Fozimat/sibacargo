@@ -39,16 +39,6 @@ class HomeController extends Controller
         return view('frontend.cabang');
     }
 
-    public function manajemen()
-    {
-        return view('frontend.manajemen');
-    }
-
-    public function legalitas()
-    {
-        return view('frontend.legalitas');
-    }
-
     public function mitra()
     {
         return view('frontend.mitra');

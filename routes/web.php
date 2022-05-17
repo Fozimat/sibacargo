@@ -27,14 +27,13 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 Route::get('/sejarah-perusahaan', [App\Http\Controllers\HomeController::class, 'sejarah_perusahaan'])->name('sejarah-perusahaan');
 Route::get('/visi', [App\Http\Controllers\HomeController::class, 'visi'])->name('visi');
 Route::get('/cabang', [App\Http\Controllers\HomeController::class, 'cabang'])->name('cabang');
-Route::get('/manajemen', [App\Http\Controllers\HomeController::class, 'manajemen'])->name('manajemen');
-Route::get('/legalitas', [App\Http\Controllers\HomeController::class, 'legalitas'])->name('legalitas');
 Route::get('/mitra', [App\Http\Controllers\HomeController::class, 'mitra'])->name('mitra');
 Route::get('/portfolio', [App\Http\Controllers\HomeController::class, 'portfolio'])->name('portfolio');
 Route::get('/videos', [App\Http\Controllers\HomeController::class, 'videos'])->name('videos');
 Route::get('/blog/{postingan}', [App\Http\Controllers\HomeController::class, 'show'])->name('blog.detail');
 
 // Layanan
+Route::get('/layanan', [App\Http\Controllers\HomeController::class, 'layanan'])->name('layanan');
 
 
 // Blog
