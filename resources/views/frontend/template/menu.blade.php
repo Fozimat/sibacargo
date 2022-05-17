@@ -43,8 +43,8 @@
                             </li>
                             <li><a href="#">Promo</a></li>
                             <li><a href="{{ route('blog') }}">Blog</a></li>
-                            <li><a href="#">Tracking</a></li>
-                            <li><a href="#">Cek Tarif</a></li>
+                            <li><a target="_blank" href="https://sibacargo.co.id">Tracking</a></li>
+                            <li><a target="_blank" href="https://sibacargo.co.id/">Cek Tarif</a></li>
                             <li><a href="#">Kontak</a></li>
                         </ul>
                     </div>

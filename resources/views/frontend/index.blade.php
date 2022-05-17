@@ -17,8 +17,8 @@
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolores ea excepturi
                                 aliquam ex.
                             </p>
-                            <a href="contact.html" data-animation-in="fadeInRight" data-delay-in="0.8"
-                                class="theme-btn border-style me-sm-4 mt-4 animated">Cek Tarif</a>
+                            <a target="_blank" href="https://sibacargo.co.id/" data-animation-in="fadeInRight"
+                                data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4 animated">Cek Tarif</a>
                         </div>
                     </div>
                 </div>
@@ -48,8 +48,8 @@
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem magni doloremque
                                 atque quae similique nostrum!
                             </p>
-                            <a href="contact.html" data-animation-in="fadeInRight" data-delay-in="0.8"
-                                class="theme-btn border-style me-sm-4 mt-4">Lacak Paket</a>
+                            <a target="_blank" href="https://sibacargo.co.id/" data-animation-in="fadeInRight"
+                                data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4">Lacak Paket</a>
                         </div>
                     </div>
                 </div>
@@ -330,7 +330,7 @@
                 <h2 class="text-white mt-3">Konsultasi Online 24 Jam Nonstop, Mulai Obrolan ?</h2>
             </div>
             <div class="col-md-2">
-                <a href="contact.html" class="theme-btn mt-2">Live Chat</a>
+                <a href="javascript:void" class="theme-btn mt-2 whatsapp-live-chat">Live Chat</a>
             </div>
         </div>
     </div>

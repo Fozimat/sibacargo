@@ -14,3 +14,11 @@
 <script src="{{ asset('assets/js/metismenu.js') }}"></script>
 <script src="{{ asset('assets/js/nice-select2.js') }}"></script>
 <script src="{{ asset('assets/js/active.js') }}"></script>
+<script type="text/javascript">
+    $(document).on("click",".close-chat",function(){
+        $("#whatsapp-chat").addClass("hide").removeClass("show")
+    }),
+    $(document).on("click",".sundakushow-chat, .whatsapp-live-chat", function(){
+        $("#whatsapp-chat").addClass("show").removeClass("hide")
+    });
+</script>

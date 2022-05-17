@@ -34,7 +34,7 @@
         <div class="row mtm-30">
             <div class="col-md-6 col-12 col-lg-4 mt-30">
                 <div class="post-featured-thumb bg-cover"
-                    style="background-image: url('{{ asset('assets/img/thumbnail/1.jpg') }}');width:356px;height:267px;">
+                    style="background-image: url('{{ asset('assets/img/thumbnail/1.jpg') }}');height:267px;">
                     <div class="video-play-btn video-post d-flex justify-content-center align-items-center h-100">
                         <a href="http://www.youtube.com/watch?v=XOo7LtUxJoY" class="play-video popup-video"
                             style="width: 62px;height: 62px; line-height: 62px;"><i class="fas fa-play"></i></a>
@@ -43,7 +43,7 @@
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
                 <div class="post-featured-thumb bg-cover"
-                    style="background-image: url('{{ asset('assets/img/thumbnail/2.jpg') }}');width:356px;height:267px;">
+                    style="background-image: url('{{ asset('assets/img/thumbnail/2.jpg') }}');height:267px;">
                     <div class="video-play-btn video-post d-flex justify-content-center align-items-center h-100">
                         <a href="http://www.youtube.com/watch?v=r08vK_CuCHs" class="play-video popup-video"
                             style="width: 62px;height: 62px; line-height: 62px;"><i class="fas fa-play"></i></a>
@@ -52,7 +52,7 @@
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
                 <div class="post-featured-thumb bg-cover"
-                    style="background-image: url('{{ asset('assets/img/thumbnail/3.jpg') }}');width:356px;height:267px;">
+                    style="background-image: url('{{ asset('assets/img/thumbnail/3.jpg') }}');height:267px;">
                     <div class="video-play-btn video-post d-flex justify-content-center align-items-center h-100">
                         <a href="https://www.youtube.com/watch?v=YHclkR3pCH4" class="play-video popup-video"
                             style="width: 62px;height: 62px; line-height: 62px;"><i class="fas fa-play"></i></a>
@@ -61,7 +61,7 @@
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
                 <div class="post-featured-thumb bg-cover"
-                    style="background-image: url('{{ asset('assets/img/thumbnail/4.jpg') }}');width:356px;height:267px;">
+                    style="background-image: url('{{ asset('assets/img/thumbnail/4.jpg') }}');height:267px;">
                     <div class="video-play-btn video-post d-flex justify-content-center align-items-center h-100">
                         <a href="https://www.youtube.com/watch?v=KrRxnHC2HdY" class="play-video popup-video"
                             style="width: 62px;height: 62px; line-height: 62px;"><i class="fas fa-play"></i></a>
@@ -70,7 +70,7 @@
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
                 <div class="post-featured-thumb bg-cover"
-                    style="background-image: url('{{ asset('assets/img/thumbnail/5.jpg') }}');width:356px;height:267px;">
+                    style="background-image: url('{{ asset('assets/img/thumbnail/5.jpg') }}');height:267px;">
                     <div class="video-play-btn video-post d-flex justify-content-center align-items-center h-100">
                         <a href="https://www.youtube.com/watch?v=dQbgJ8o4DUg" class="play-video popup-video"
                             style="width: 62px;height: 62px; line-height: 62px;"><i class="fas fa-play"></i></a>
@@ -79,7 +79,7 @@
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
                 <div class="post-featured-thumb bg-cover"
-                    style="background-image: url('{{ asset('assets/img/thumbnail/6.jpg') }}');width:356px;height:267px;">
+                    style="background-image: url('{{ asset('assets/img/thumbnail/6.jpg') }}');height:267px;">
                     <div class="video-play-btn video-post d-flex justify-content-center align-items-center h-100">
                         <a href="https://www.youtube.com/watch?v=-TeUcW3t00s" class="play-video popup-video"
                             style="width: 62px;height: 62px; line-height: 62px;"><i class="fas fa-play"></i></a>

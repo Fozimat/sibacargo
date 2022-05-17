@@ -25,6 +25,8 @@
 
     @yield('content')
 
+    @include('frontend.live-chat')
+
     {{-- footer --}}
     @include('frontend.template.footer')
 
