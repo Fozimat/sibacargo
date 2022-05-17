@@ -347,75 +347,33 @@
         </div>
 
         <div class="row">
+            @foreach ($postingan_terbaru as $post)
             <div class="col-xl-4 col-md-6 col-12">
                 <div class="single-news-box">
-                    <div class="featured-thumb bg-cover" style="background-image: url('assets/img/blog/b1.jpg')">
+                    <div class="featured-thumb bg-cover"
+                        style="background-image: url('{{ asset('postingan/'.$post->gambar) }}')">
                         <div class="post-cat">
-                            <a href="news.html">logistics</a>
+                            <a href="#">{{ $post->kategori->nama_kategori }}</a>
                         </div>
                     </div>
                     <div class="content">
                         <div class="meta d-flex">
                             <div class="author me-2">
-                                <i class="fal fa-user"></i><a href="#">Transland</a>
+                                <i class="fal fa-user"></i><a href="#">{{ $post->penulis }}</a>
                             </div>
                             |
                             <div class="date ms-2">
                                 <i class="fal fa-calendar-alt"></i>
-                                <span>24th June 2022</span>
+                                <span>{{ $post->tanggal_posting->isoFormat('dddd, D
+                                    MMMM Y') }}</span>
                             </div>
                         </div>
-                        <h3><a href="news-details.html">Our Mission 2040: Zero Emissions</a></h3>
-                        <a class="read-btn" href="news-details.html">Read More</a>
+                        <h3><a href="{{ route('blog.detail', $post->id) }}">{{ $post->judul }}</a></h3>
+                        <a class="read-btn" href="{{ route('blog.detail', $post->id) }}">Baca Selengkapnya</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-12">
-                <div class="single-news-box">
-                    <div class="featured-thumb bg-cover" style="background-image: url('assets/img/blog/b2.jpg')">
-                        <div class="post-cat">
-                            <a href="news.html">transport</a>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <div class="meta d-flex">
-                            <div class="author me-2">
-                                <i class="fal fa-user"></i><a href="#">Salman Ahmed</a>
-                            </div>
-                            |
-                            <div class="date ms-2">
-                                <i class="fal fa-calendar-alt"></i>
-                                <span>24th June 2022</span>
-                            </div>
-                        </div>
-                        <h3><a href="news-details.html">Key Logistics Trends in Life Sciences 2021</a></h3>
-                        <a class="read-btn" href="news-details.html">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 col-12">
-                <div class="single-news-box">
-                    <div class="featured-thumb bg-cover" style="background-image: url('assets/img/blog/b3.jpg')">
-                        <div class="post-cat">
-                            <a href="news.html">logistics</a>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <div class="meta d-flex">
-                            <div class="author me-2">
-                                <i class="fal fa-user"></i><a href="#">Transland</a>
-                            </div>
-                            |
-                            <div class="date ms-2">
-                                <i class="fal fa-calendar-alt"></i>
-                                <span>24th June 2022</span>
-                            </div>
-                        </div>
-                        <h3><a href="news-details.html">5 Benefits of Working with a Freight Broker</a></h3>
-                        <a class="read-btn" href="news-details.html">Read More</a>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>

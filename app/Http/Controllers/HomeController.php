@@ -20,7 +20,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('frontend.index');
+        $postingan_terbaru = Postingan::with(['kategori'])->orderBy('tanggal_posting', 'DESC')->take(6)->get();
+        return view('frontend.index', compact(['postingan_terbaru']));
     }
 
     public function sejarah_perusahaan()
