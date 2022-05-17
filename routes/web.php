@@ -32,6 +32,7 @@ Route::get('/legalitas', [App\Http\Controllers\HomeController::class, 'legalitas
 Route::get('/mitra', [App\Http\Controllers\HomeController::class, 'mitra'])->name('mitra');
 Route::get('/portfolio', [App\Http\Controllers\HomeController::class, 'portfolio'])->name('portfolio');
 Route::get('/videos', [App\Http\Controllers\HomeController::class, 'videos'])->name('videos');
+Route::get('/blog/{postingan}', [App\Http\Controllers\HomeController::class, 'show'])->name('blog.detail');
 
 // Layanan
 

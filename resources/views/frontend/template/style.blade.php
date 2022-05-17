@@ -1,21 +1,21 @@
 <!-- ========== Favicon Icon ========== -->
-<link rel="shortcut icon" href="assets/img/favicon.ico" />
+<link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}" />
 <!-- ===========  All Stylesheet ================= -->
 <!--  Icon css plugins -->
-<link rel="stylesheet" href="assets/css/icons.css" />
+<link rel="stylesheet" href="{{ asset('assets/css/icons.css') }}" />
 <!--  animate css plugins -->
-<link rel="stylesheet" href="assets/css/animate.css" />
+<link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}" />
 <!--  slick css plugins -->
-<link rel="stylesheet" href="assets/css/slick.css" />
+<link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}" />
 <!--  magnific-popup css plugins -->
-<link rel="stylesheet" href="assets/css/magnific-popup.css" />
+<link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}" />
 <!-- metis menu css file -->
-<link rel="stylesheet" href="assets/css/metismenu.css" />
+<link rel="stylesheet" href="{{ asset('assets/css/metismenu.css') }}" />
 <!-- select2 css file -->
-<link rel="stylesheet" href="assets/css/nice-select2.css" />
+<link rel="stylesheet" href="{{ asset('assets/css/nice-select2.css') }}" />
 <!--  Bootstrap css plugins -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
 <!--  main style css file -->
-<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
 <!--  Custom css file -->
 <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}" />

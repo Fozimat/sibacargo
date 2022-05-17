@@ -4,7 +4,7 @@
             <div class="col-lg-3 col-sm-5 col-md-4 col-6 pr-lg-5">
                 <div class="logo">
                     <a href="#">
-                        <img src="assets/img/logosiba.png" alt="Transland" />
+                        <img src="{{ asset('assets/img/logosiba.png') }}" alt="Transland" />
                     </a>
                 </div>
             </div>

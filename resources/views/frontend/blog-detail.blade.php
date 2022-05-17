@@ -1,7 +1,8 @@
 @extends('frontend.template')
 
 @section('content')
-<div class="page-banner-wrap text-center bg-cover" style="background-image: url('assets/img/page-banner.jpg')">
+<div class="page-banner-wrap text-center bg-cover"
+    style="background-image: url({{ asset('assets/img/page-banner.jpg') }})">
     <div class="container">
         <div class="page-heading text-white">
             <h1>Blog</h1>
@@ -13,7 +14,7 @@
         <nav>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">blog</li>
+                <li class="breadcrumb-item active" aria-current="page">blog detail</li>
             </ol>
         </nav>
     </div>
@@ -23,45 +24,24 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8">
-                <div class="blog-posts">
-                    @foreach ($postingan as $post)
-                    <div class="single-blog-post">
-                        <div class="post-featured-thumb bg-cover"
-                            style="background-image: url('{{ asset('postingan/'.$post->gambar) }}')"></div>
+                <div class="blog-post-details border-wrap">
+                    <div class="single-blog-post post-details">
                         <div class="post-content">
-                            <div class="post-cat">
-                                <a href="#">{{ $post->kategori->nama_kategori }}</a>
-                            </div>
-                            <h2>
-                                <a href="{{ route('blog.detail', $post->id) }}">{{ $post->judul }}</a>
-                            </h2>
+                            <h2>{{ $postingan->judul }}</h2>
+                            <img src="{{ asset('postingan/'.$postingan->gambar ) }}" alt="">
                             <div class="post-meta">
-                                <span><i class="fal fa-calendar-alt"></i>{{ $post->tanggal_posting->isoFormat('dddd, D
+                                <span><i class="fal fa-calendar-alt d-inline"></i>{{
+                                    $postingan->tanggal_posting->isoFormat('dddd, D
                                     MMMM Y,
                                     HH:mm') }}</span>
                             </div>
-                            <div class="d-flex justify-content-between align-items-center mt-30">
-                                <div class="author-info">
-                                    <div class="author-img" style="
-                          background-image: url('assets/img/blog/author_img.jpg');
-                        "></div>
-                                    <h5><a href="#">by {{ $post->penulis }}</a></h5>
-                                </div>
-                                <div class="post-link">
-                                    <a href="{{ route('blog.detail', $post->id) }}"><i class="fal fa-arrow-right"></i>
-                                        Baca Selengkapnya</a>
-                                </div>
-                            </div>
+
+                            {!! $postingan->deskripsi !!}
+
                         </div>
                     </div>
-                    @endforeach
                 </div>
-                <div class="page-nav-wrap mt-60 text-center">
-                    <ul>
-                        {{ $postingan->links() }}
-                    </ul>
-                </div>
-                <!-- /.col-12 col-lg-12 -->
+
             </div>
             <div class="col-12 col-lg-4">
                 <div class="main-sidebar">
@@ -88,7 +68,7 @@
                                 </div>
                                 <div class="post-content">
                                     <h5>
-                                        <a href="{{ route('blog.detail', $post->id) }}">{{ $post->judul }}</a>
+                                        <a href="news-details.html">{{ $post->judul }}</a>
                                     </h5>
                                     <div class="post-date">
                                         <i class="far fa-calendar-alt"></i>{{ $post->tanggal_posting->isoFormat('dddd, D

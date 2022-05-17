@@ -5,7 +5,7 @@
                 <div class="col-sm-6 col-xl-5">
                     <div class="about-transland pe-md-5 pe-xl-0">
                         <a href="index.html">
-                            <img src="assets/img/logosiba-footer.png" alt="Siba Cargo" />
+                            <img src="{{ asset('assets/img/logosiba-footer.png') }}" alt="Siba Cargo" />
                         </a>
                         <p class="text-justify">
                             <span style="color: rgb(237, 236, 236); font-weight: 900">PT. Wajah SIBA Nusantara </span>
