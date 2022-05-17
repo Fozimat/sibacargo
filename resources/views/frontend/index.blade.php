@@ -323,15 +323,18 @@
     </div>
 </section>
 
-<section class="cta-wrapper section-padding bg-overlay bg-cover" style="background-image: url('assets/img/cta-bg.jpg')">
+<section class="d-flex justify-content-center align-items-center" style="background-color: #0077C3;height: 120px;">
     <div class="container">
-        <div class="col-lg-8 offset-lg-2 col-12 text-center">
-            <div class="cta-contents">
-                <img src="assets/img/footer-logo.png" alt="transland">
-                <h1 class="text-white mt-5 mb-4">World’s Leading Contract Logistics Provider</h1>
-                <a href="contact.html" class="theme-btn">make custom request</a>
+        <div class="row">
+            <div class="col-md-10">
+                <h2 class="text-white mt-3">Konsultasi Online 24 Jam Nonstop, Mulai Obrolan ?</h2>
+            </div>
+            <div class="col-md-2">
+                <a href="contact.html" class="theme-btn mt-2">Live Chat</a>
             </div>
         </div>
+    </div>
+
     </div>
 </section>
 
