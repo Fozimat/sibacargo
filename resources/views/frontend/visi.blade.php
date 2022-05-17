@@ -41,44 +41,43 @@
                             terbaik di indonesia dengan pelayanan prima yang profesional menjangkau seluruh wilayah
                             pelosok nusantara.
                         </p>
-                        <h3 style="color: #0077c3;">Visi</h3>
+                        <h3 style="color: #0077c3;">Misi</h3>
                         <ul>
                             <li
                                 style="list-style: disc; text-align: justify;text-justify: inter-word;margin-left: 20px;">
                                 Fokus memperluas
                                 jaringan area jangkauan ke titik-titik
-                                pelosok nusantara</li>
+                                pelosok nusantara.</li>
                             <li
                                 style="list-style: disc; text-align: justify;text-justify: inter-word;margin-left: 20px;">
                                 Menerapkan
                                 system dan prosedure pelayanan 3T ( Termurah,
-                                Terpercaya, dan Terbaik ) secara profesional dan bertanggung jawab
+                                Terpercaya, dan Terbaik ) secara profesional dan bertanggung jawab.
                             </li>
                             <li
                                 style="list-style: disc; text-align: justify;text-justify: inter-word;margin-left: 20px;">
                                 Selalu mencari
                                 terobosan dan solusi-solusi pengiriman untuk
                                 menekan biaya pengiriman lebih murah, karna semakin murah biaya pengiriman maka semakin
-                                murah harga jual barang / produk tersebut</li>
+                                murah harga jual barang / produk tersebut.</li>
                             <li
                                 style="list-style: disc; text-align: justify;text-justify: inter-word;margin-left: 20px;">
                                 Selalu inovatif
                                 mengeluarkan program-program untuk kenyamanan
                                 dan kemudahan pelanggan dengan memanfaatkan sistem dan jaringan kita yang terpadu di
-                                seluruh indonesia
+                                seluruh indonesia.
                             </li>
                             <li
                                 style="list-style: disc; text-align: justify;text-justify: inter-word;margin-left: 20px;">
                                 Memberikan
                                 kualitas jasa yang terbaik dengan harga yang
-                                kompetitif
+                                kompetitif.
                             </li>
                             <li
                                 style="list-style: disc; text-align: justify;text-justify: inter-word;margin-left: 20px;">
                                 Kepercayaan
                                 pelanggan menjadi prioritas utama kami yang harus
                                 dipertanggungjawabkan dalam bentuk kepuasan dan jaminan pengiriman.
-
                             </li>
                         </ul>
                     </div>
