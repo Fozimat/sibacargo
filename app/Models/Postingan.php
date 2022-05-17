@@ -10,6 +10,9 @@ class Postingan extends Model
     use HasFactory;
     protected $table = 'postingan';
     protected $guarded = '';
+    protected $casts = [
+        'tanggal_posting' => 'datetime',
+    ];
 
     public function kategori()
     {

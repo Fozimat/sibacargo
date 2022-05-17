@@ -6,6 +6,8 @@ use App\Models\Kategori;
 use App\Models\Postingan;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\FormPostinganRequest;
+use Illuminate\Support\Facades\File;
 
 class PostinganController extends Controller
 {
@@ -37,9 +39,21 @@ class PostinganController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(FormPostinganRequest $request)
     {
-        //
+        $gambar = $request->file('gambar');
+        $nama_gambar = time() . '.' . $gambar->getClientOriginalExtension();
+        $gambar->move(public_path('postingan'), $nama_gambar);
+        $data = [
+            'id_kategori' => $request->id_kategori,
+            'penulis' => $request->penulis,
+            'judul' => $request->judul,
+            'deskripsi' => $request->deskripsi,
+            'tanggal_posting' => $request->tanggal_posting,
+            'gambar' => $nama_gambar,
+        ];
+        Postingan::create($data);
+        return redirect()->route('postingan.index')->with('flash', 'Postingan berhasil ditambahkan');
     }
 
     /**
@@ -82,8 +96,14 @@ class PostinganController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Postingan $postingan)
     {
-        //
+        $path = public_path('postingan/' . $postingan->gambar);
+        if (File::exists($path)) {
+            unlink($path);
+        }
+
+        $postingan->delete();
+        return redirect()->route('postingan.index')->with('flash', 'Postingan berhasil dihapus');
     }
 }

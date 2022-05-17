@@ -47,7 +47,8 @@ Postingan
                     <div class="card">
                         <div class="card-content">
                             <div class="card-body">
-                                <form class="form" action="{{ route('postingan.store') }}" method="POST">
+                                <form class="form" action="{{ route('postingan.store') }}" method="POST"
+                                    enctype="multipart/form-data">
                                     @csrf
                                     <div class="row">
                                         <div class="col-md-12 col-12">
@@ -75,9 +76,11 @@ Postingan
                                             </div>
                                             <div class="form-group">
                                                 <label for="nama_kategori">Kategori</label>
-                                                <select class="form-select" id="id_kategori" name="id_kategori">
+                                                <select class="form-select @error('id_kategori') is-invalid @enderror"
+                                                    name="id_kategori">
+                                                    <option value="">-- Pilih Kategori --</option>
                                                     @foreach ($kategori as $k)
-                                                    <option value="{{ $k->id_kategori }}">{{ $k->nama_kategori }}
+                                                    <option value="{{ $k->id }}">{{ $k->nama_kategori }}
                                                     </option>
                                                     @endforeach
                                                 </select>
@@ -99,9 +102,10 @@ Postingan
                                                 @enderror
                                             </div>
                                             <div class="form-group">
-                                                <label for="gambar">Tanggal Posting</label>
-                                                <input class="form-control" type="file" id="gambar" name="gambra">
-                                                @error('tanggal_posting')
+                                                <label for="gambar">Gambar</label>
+                                                <input class="form-control @error('gambar') is-invalid @enderror"
+                                                    type="file" id="gambar" name="gambar">
+                                                @error('gambar')
                                                 <div class="invalid-feedback">
                                                     {{ $message }}
                                                 </div>
@@ -109,9 +113,8 @@ Postingan
                                             </div>
                                             <div class="form-group">
                                                 <label for="deskripsi">Deskripsi</label>
-                                                <div id="editor">
-
-                                                </div>
+                                                <textarea class="form-control" id="editor" name="deskripsi" rows="3">{{
+                                                    old('deskripsi') }}</textarea>
                                                 @error('deskripsi')
                                                 <div class="invalid-feedback">
                                                     {{ $message }}

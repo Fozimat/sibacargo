@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Kategori;
+use App\Models\Postingan;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -63,6 +65,10 @@ class HomeController extends Controller
 
     public function blog()
     {
-        return view('frontend.blog');
+        $postingan = Postingan::orderBy('tanggal_posting', 'DESC')->paginate(4);
+        $postingan_terbaru = Postingan::orderBy('tanggal_posting', 'DESC')->take(4)->get();
+        $kategori = Kategori::with(['postingan'])->get();
+
+        return view('frontend.blog', compact(['postingan', 'kategori', 'postingan_terbaru']));
     }
 }

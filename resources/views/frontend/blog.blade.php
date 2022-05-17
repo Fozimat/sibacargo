@@ -12,7 +12,7 @@
     <div class="container">
         <nav>
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">blog</li>
             </ol>
         </nav>
@@ -24,181 +24,43 @@
         <div class="row">
             <div class="col-12 col-lg-8">
                 <div class="blog-posts">
+                    @foreach ($postingan as $post)
                     <div class="single-blog-post">
                         <div class="post-featured-thumb bg-cover"
-                            style="background-image: url('assets/img/blog/p1.jpg')"></div>
+                            style="background-image: url('{{ asset('postingan/'.$post->gambar) }}')"></div>
                         <div class="post-content">
                             <div class="post-cat">
-                                <a href="news.html">logistics</a>
+                                <a href="#">{{ $post->kategori->nama_kategori }}</a>
                             </div>
                             <h2>
-                                <a href="news-details.html">Helping Companies in Their Green Transition</a>
+                                <a href="#">{{ $post->judul }}</a>
                             </h2>
                             <div class="post-meta">
-                                <span><i class="fal fa-comments"></i>35 Comments</span>
-                                <span><i class="fal fa-calendar-alt"></i>24th March 2021</span>
+                                <span><i class="fal fa-calendar-alt"></i>{{ $post->tanggal_posting->isoFormat('dddd, D
+                                    MMMM Y,
+                                    HH:mm') }}</span>
                             </div>
-                            <p>
-                                With the cargo business blasting, financier firms are
-                                bouncing from organization to organization quickly,
-                                prompting high paces of turnover. Regularly, agents are
-                                beginning the work with the...
-                            </p>
+                            {{-- <p>
+                                {!! $post->deskripsi !!}
+                            </p> --}}
                             <div class="d-flex justify-content-between align-items-center mt-30">
                                 <div class="author-info">
                                     <div class="author-img" style="
                           background-image: url('assets/img/blog/author_img.jpg');
                         "></div>
-                                    <h5><a href="#">by Hetmayar</a></h5>
+                                    <h5><a href="#">by {{ $post->penulis }}</a></h5>
                                 </div>
                                 <div class="post-link">
-                                    <a href="news-details.html"><i class="fal fa-arrow-right"></i> Read More</a>
+                                    <a href="#"><i class="fal fa-arrow-right"></i> Baca Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="single-blog-post">
-                        <div class="post-featured-thumb bg-cover"
-                            style="background-image: url('assets/img/blog/p2.jpg')"></div>
-                        <div class="post-content">
-                            <div class="post-cat">
-                                <a href="#">transport</a>
-                            </div>
-                            <h2>
-                                <a href="news-details.html">Tips to Lowering Freight Shipping Costs</a>
-                            </h2>
-                            <div class="post-meta">
-                                <span><i class="fal fa-comments"></i>35 Comments</span>
-                                <span><i class="fal fa-calendar-alt"></i>17th July 2020</span>
-                            </div>
-                            <p>
-                                We commit ourselves to complete all projects within the
-                                timeline set with our honorable clients. ex ea commodo
-                                consequat. We have a proven record of best result of
-                                building and reputable company in the United States.
-                            </p>
-                            <div class="d-flex justify-content-between align-items-center mt-30">
-                                <div class="author-info">
-                                    <div class="author-img" style="
-                          background-image: url('assets/img/blog/author_img.jpg');
-                        "></div>
-                                    <h5><a href="#">by Hetmayar</a></h5>
-                                </div>
-                                <div class="post-link">
-                                    <a href="news-details.html"><i class="fal fa-arrow-right"></i> Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-blog-post format-video video-post">
-                        <div class="post-featured-thumb bg-cover"
-                            style="background-image: url('assets/img/blog/p3.jpg')">
-                            <div class="video-play-btn">
-                                <a href="https://www.youtube.com/watch?v=E1xkXZs0cAQ" class="play-video popup-video"><i
-                                        class="fas fa-play"></i></a>
-                            </div>
-                        </div>
-                        <div class="post-content">
-                            <div class="post-cat">
-                                <a href="news.html">Engineering</a>
-                            </div>
-                            <h2>
-                                <a href="news-details.html">Mechanical Engineering and Energy</a>
-                            </h2>
-                            <div class="post-meta">
-                                <span><i class="fal fa-comments"></i>35 Comments</span>
-                                <span><i class="fal fa-calendar-alt"></i>12th May 2020</span>
-                            </div>
-                            <p>
-                                We have a proven record of best result of building and
-                                reputable company in the United States. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                repreh enderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur.
-                            </p>
-                            <div class="d-flex justify-content-between align-items-center mt-30">
-                                <div class="author-info">
-                                    <div class="author-img" style="
-                          background-image: url('assets/img/blog/author3.jpg');
-                        "></div>
-                                    <h5><a href="#">by Salman</a></h5>
-                                </div>
-                                <div class="post-link">
-                                    <a href="news-details.html"><i class="fal fa-arrow-right"></i> Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-blog-post">
-                        <div class="post-featured-thumb bg-cover"
-                            style="background-image: url('assets/img/blog/p5.jpg')"></div>
-                        <div class="post-content">
-                            <div class="post-cat">
-                                <a href="#">Interior Design</a>
-                            </div>
-                            <h2>
-                                <a href="news-details.html">Drivers Deliver Much More Than Products</a>
-                            </h2>
-                            <div class="post-meta">
-                                <span><i class="fal fa-comments"></i>35 Comments</span>
-                                <span><i class="fal fa-calendar-alt"></i>24th March 2019</span>
-                            </div>
-                            <p>
-                                We have a proven record of best result of building and
-                                reputable company in the United States. Thousands of
-                                successful projects we are one of the most trusted
-                                construction companies. We have a proven record of best
-                                result of building and reputable company in the United
-                                States.
-                            </p>
-                            <div class="d-flex justify-content-between align-items-center mt-30">
-                                <div class="author-info">
-                                    <div class="author-img" style="
-                          background-image: url('assets/img/blog/author_img.jpg');
-                        "></div>
-                                    <h5><a href="#">by Hetmayar</a></h5>
-                                </div>
-                                <div class="post-link">
-                                    <a href="news-details.html"><i class="fal fa-arrow-right"></i> Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-blog-post quote-post format-quote">
-                        <div class="post-content text-white bg-cover">
-                            <div class="quote-content">
-                                <div class="icon">
-                                    <i class="fas fa-quote-left"></i>
-                                </div>
-                                <div class="quote-text">
-                                    <h2>
-                                        Excepteur sint occaecat cupida tat non proident, sunt
-                                        in.
-                                    </h2>
-                                    <div class="post-meta">
-                                        <span><i class="fal fa-comments"></i>35 Comments</span>
-                                        <span><i class="fal fa-calendar-alt"></i>24th March
-                                            2019</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
                 <div class="page-nav-wrap mt-60 text-center">
                     <ul>
-                        <li>
-                            <a class="page-numbers" href="#"><i class="fal fa-long-arrow-left"></i></a>
-                        </li>
-                        <li><a class="page-numbers" href="#">01</a></li>
-                        <li><a class="page-numbers" href="#">02</a></li>
-                        <li><a class="page-numbers" href="#">..</a></li>
-                        <li><a class="page-numbers" href="#">10</a></li>
-                        <li><a class="page-numbers" href="#">11</a></li>
-                        <li>
-                            <a class="page-numbers" href="#"><i class="fal fa-long-arrow-right"></i></a>
-                        </li>
+                        {{ $postingan->links() }}
                     </ul>
                 </div>
                 <!-- /.col-12 col-lg-12 -->
@@ -218,83 +80,39 @@
                     </div>
                     <div class="single-sidebar-widget">
                         <div class="wid-title">
-                            <h3>Popular Feeds</h3>
+                            <h3>Artikel Terbaru</h3>
                         </div>
                         <div class="popular-posts">
+                            @foreach ($postingan_terbaru as $post)
                             <div class="single-post-item">
-                                <div class="thumb bg-cover" style="background-image: url('assets/img/blog/pp1.jpg')">
+                                <div class="thumb bg-cover"
+                                    style="background-image: url('{{ asset('postingan/'.$post->gambar) }}')">
                                 </div>
                                 <div class="post-content">
                                     <h5>
-                                        <a href="news-details.html">Why Is This Shortage Happening?</a>
+                                        <a href="news-details.html">{{ $post->judul }}</a>
                                     </h5>
                                     <div class="post-date">
-                                        <i class="far fa-calendar-alt"></i>24th March 2019
+                                        <i class="far fa-calendar-alt"></i>{{ $post->tanggal_posting->isoFormat('dddd, D
+                                        MMMM Y') }}
                                     </div>
                                 </div>
                             </div>
-                            <div class="single-post-item">
-                                <div class="thumb bg-cover" style="background-image: url('assets/img/blog/pp2.jpg')">
-                                </div>
-                                <div class="post-content">
-                                    <h5>
-                                        <a href="news-details.html">Your Guide to Becoming a Preferred Shipper</a>
-                                    </h5>
-                                    <div class="post-date">
-                                        <i class="far fa-calendar-alt"></i>25th March 2019
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-item">
-                                <div class="thumb bg-cover" style="background-image: url('assets/img/blog/pp3.jpg')">
-                                </div>
-                                <div class="post-content">
-                                    <h5>
-                                        <a href="news-details.html">Lorem ipsum dolor sit cing elit, sed do.</a>
-                                    </h5>
-                                    <div class="post-date">
-                                        <i class="far fa-calendar-alt"></i>26th March 2019
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-item">
-                                <div class="thumb bg-cover" style="background-image: url('assets/img/blog/pp4.jpg')">
-                                </div>
-                                <div class="post-content">
-                                    <h5>
-                                        <a href="news-details.html">Tips to Lowering Freight Shipping Costs</a>
-                                    </h5>
-                                    <div class="post-date">
-                                        <i class="far fa-calendar-alt"></i>29th March 2019
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                     <div class="single-sidebar-widget">
                         <div class="wid-title">
-                            <h3>Categories</h3>
+                            <h3>Kategori</h3>
                         </div>
                         <div class="widget_categories">
                             <ul>
+                                @foreach ($kategori as $kat)
                                 <li>
-                                    <a href="news.html">Consultant <span>23</span></a>
+                                    <a href="#">{{ $kat->nama_kategori }} <span>{{ $kat->postingan->count()
+                                            }}</span></a>
                                 </li>
-                                <li>
-                                    <a href="news.html">Help <span>24</span></a>
-                                </li>
-                                <li>
-                                    <a href="news.html">Education <span>11</span></a>
-                                </li>
-                                <li>
-                                    <a href="news.html">Technology <span>05</span></a>
-                                </li>
-                                <li>
-                                    <a href="news.html">business <span>06</span></a>
-                                </li>
-                                <li>
-                                    <a href="news.html">Events <span>10</span></a>
-                                </li>
+                                @endforeach
                             </ul>
                         </div>
                     </div>
@@ -303,24 +121,15 @@
                             <h3>Never Miss News</h3>
                         </div>
                         <div class="social-link">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="single-sidebar-widget">
-                        <div class="wid-title">
-                            <h3>Popular Tags</h3>
-                        </div>
-                        <div class="tagcloud">
-                            <a href="news.html">logitic</a>
-                            <a href="news-details.html">delivery</a>
-                            <a href="news-details.html">cargo</a>
-                            <a href="news-details.html">transport</a>
-                            <a href="news-details.html">oil</a>
-                            <a href="news-details.html">freight</a>
+                            <a target="_blank" href="https://www.facebook.com/sibacargoofficial"><i
+                                    class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://twitter.com/sibacargoofficial"><i class="fab fa-twitter"
+                                    aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/sibacargoofficial/"><i
+                                    class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a target="_blank"
+                                href="https://www.youtube.com/channel/UC8P6Ri76hj4_WZp5iWW_OUA/featured"><i
+                                    class="fab fa-youtube" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
