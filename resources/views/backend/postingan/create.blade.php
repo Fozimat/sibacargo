@@ -5,14 +5,13 @@ Postingan
 @endsection
 
 @push('script')
-<script src="{{ asset('admin-assets/vendors/ckeditor/ckeditor.js') }}"></script>
-
+<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+<script src="{{ asset('admin-assets/vendors/tinymce/tinymce.min.js') }}"></script>
+<script src="{{ asset('admin-assets/vendors/tinymce/plugins/code/plugin.min.js') }}"></script>
 <script>
-    ClassicEditor
-        .create(document.querySelector('#editor'))
-        .catch(error => {
-            console.error(error);
-        });
+    tinymce.init({ selector: '#editor',
+    plugins: 'table',
+    });
 </script>
 @endpush
 
