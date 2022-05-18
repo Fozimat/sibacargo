@@ -75,7 +75,9 @@ class PostinganController extends Controller
      */
     public function edit($id)
     {
-        //
+        $kategori = Kategori::all();
+        $postingan = Postingan::findOrFail($id);
+        return view('backend.postingan.edit', compact(['kategori', 'postingan']));
     }
 
     /**
@@ -98,11 +100,6 @@ class PostinganController extends Controller
      */
     public function destroy(Postingan $postingan)
     {
-        $path = public_path('postingan/' . $postingan->gambar);
-        if (File::exists($path)) {
-            unlink($path);
-        }
-
         $postingan->delete();
         return redirect()->route('postingan.index')->with('flash', 'Postingan berhasil dihapus');
     }
