@@ -213,3 +213,8 @@ a.close-chat {
     transform: scale(1);
     opacity: 1;
 }
+
+.text-justify {
+    text-align: justify; 
+    text-justify: inter-word"
+}

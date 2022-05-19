@@ -39,6 +39,9 @@ Route::get('/layanan', [App\Http\Controllers\HomeController::class, 'layanan'])-
 // Blog
 Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('blog');
 
+// Kontak
+Route::get('/kontak', [App\Http\Controllers\HomeController::class, 'kontak'])->name('kontak');
+
 // Admin
 Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');

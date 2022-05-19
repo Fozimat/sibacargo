@@ -73,4 +73,9 @@ class HomeController extends Controller
         $kategori = Kategori::with(['postingan'])->get();
         return view('frontend.blog-detail', compact(['postingan', 'kategori', 'postingan_terbaru']));
     }
+
+    public function kontak()
+    {
+        return view('frontend.kontak');
+    }
 }

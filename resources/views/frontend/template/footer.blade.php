@@ -33,7 +33,9 @@
 
                 <div class="col-sm-6 col-xl-2">
                     <div class="single-footer-wid">
-                        <div class="wid-title"></div>
+                        <div class="wid-title">
+                            <h6></h6>
+                        </div>
                         <ul>
                             <li><a href="#">Sparepart</a></li>
                             <li><a href="#">Material</a></li>
