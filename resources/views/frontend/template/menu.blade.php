@@ -25,7 +25,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Layanan</a>
+                                <a href="{{ route('layanan') }}">Layanan</a>
                             </li>
                             <li><a href="#">Promo</a></li>
                             <li><a href="{{ route('blog') }}">Blog</a></li>
@@ -60,7 +60,7 @@
                                         <li><a href="{{ route('videos') }}">Videos</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Layanan</a></li>
+                                <li><a href="{{ route('layanan') }}">Layanan</a></li>
                                 <li><a href="#">Promo</a></li>
                                 <li><a href="{{ route('blog') }}">Blog</a></li>
                                 <li><a href="#">Tracking</a></li>

@@ -54,12 +54,16 @@ class HomeController extends Controller
         return view('frontend.videos');
     }
 
+    public function layanan()
+    {
+        return view('frontend.layanan');
+    }
+
     public function blog()
     {
         $postingan = Postingan::orderBy('tanggal_posting', 'DESC')->paginate(4);
         $postingan_terbaru = Postingan::orderBy('tanggal_posting', 'DESC')->take(4)->get();
         $kategori = Kategori::with(['postingan'])->get();
-
         return view('frontend.blog', compact(['postingan', 'kategori', 'postingan_terbaru']));
     }
 
@@ -67,7 +71,6 @@ class HomeController extends Controller
     {
         $postingan_terbaru = Postingan::orderBy('tanggal_posting', 'DESC')->take(4)->get();
         $kategori = Kategori::with(['postingan'])->get();
-        // dd($postingan);
         return view('frontend.blog-detail', compact(['postingan', 'kategori', 'postingan_terbaru']));
     }
 }
