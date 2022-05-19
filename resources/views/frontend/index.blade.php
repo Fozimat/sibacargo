@@ -144,7 +144,7 @@
                             <i class="flaticon-ship-5"></i>
                         </div>
                         <h3>
-                            <a href="services-details.html">Ekspedisi Murah Via Laut</a>
+                            <a href="#">Ekspedisi Murah Via Laut</a>
                         </h3>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                             <i class="flaticon-subway"></i>
                         </div>
                         <h3>
-                            <a href="services-details.html">Ekspedisi Murah Via Darat</a>
+                            <a href="#">Ekspedisi Murah Via Darat</a>
                         </h3>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                             <i class="flaticon-truck-2"></i>
                         </div>
                         <h3>
-                            <a href="services-details.html">Ekspedisi Murah Container 20/40 ft</a>
+                            <a href="#">Ekspedisi Murah Jasa Pindah Rumah</a>
                         </h3>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                             <i class="flaticon-food"></i>
                         </div>
                         <h3>
-                            <a href="services-details.html">Ekspedisi Murah Pengiriman Mobil & Motor</a>
+                            <a href="#">Ekspedisi Murah Pengiriman Mobil & Motor</a>
                         </h3>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
                             <i class="flaticon-drone-2"></i>
                         </div>
                         <h3>
-                            <a href="services-details.html">Ekspedisi Murah Pengiriman Alat Berat</a>
+                            <a href="#">Ekspedisi Murah Project Cargo & Warehousing</a>
                         </h3>
                     </div>
                 </div>
@@ -334,9 +334,8 @@
             </div>
         </div>
     </div>
-
-    </div>
 </section>
+
 
 <section class="blog-wrapper section-padding">
     <div class="container">
