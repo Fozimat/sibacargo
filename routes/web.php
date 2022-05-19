@@ -41,6 +41,7 @@ Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name(
 
 // Kontak
 Route::get('/kontak', [App\Http\Controllers\HomeController::class, 'kontak'])->name('kontak');
+Route::post('/kontak', [App\Http\Controllers\HomeController::class, 'store_pesan'])->name('store.pesan');
 
 // Admin
 Route::prefix('admin')->middleware(['auth'])->group(function () {

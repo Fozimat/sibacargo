@@ -34,29 +34,32 @@
 
             <div class="col-12 col-lg-12">
                 <div class="contact-form">
-                    <form action="" method="POST" class="row" id="contact-form">
+                    <form action="{{ route('store.pesan') }}" method="POST" class="row" id="contact-form">
+                        @csrf
                         <div class="col-md-6 col-12">
                             <div class="single-personal-info">
-                                <label for="nama">Nama Lengkap</label>
-                                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap">
+                                <label for="nama_lengkap">Nama_lengkap Lengkap</label>
+                                <input required type="text" id="nama_lengkap" name="nama_lengkap"
+                                    placeholder="Masukkan nama lengkap">
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="single-personal-info">
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="Masukkan email">
+                                <input required type="email" id="email" name="email" placeholder="Masukkan email">
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="single-personal-info">
                                 <label for="phone">No.Handphone/Telpon</label>
-                                <input type="text" id="phone" name="handphone" placeholder="Masukkan nomor handphone">
+                                <input required type="number" id="phone" name="phone"
+                                    placeholder="Masukkan nomor handphone">
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="single-personal-info">
                                 <label for="subjek">Subjek</label>
-                                <input type="text" id="subjek" name="subjek" placeholder="Masukkan subjek">
+                                <input required type="text" id="subjek" name="subjek" placeholder="Masukkan subjek">
                             </div>
                         </div>
                         <div class="col-md-12 col-12">
@@ -66,7 +69,7 @@
                             </div>
                         </div>
                         <div class="col-md-12 col-12">
-                            <input class="submit-btn" type="submit" value="Kirim">
+                            <button class="submit-btn" type="submit">Kirim</button>
                         </div>
                     </form>
                 </div>

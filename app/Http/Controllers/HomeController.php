@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Kategori;
+use App\Models\Pesan;
 use App\Models\Postingan;
 use Illuminate\Http\Request;
 
@@ -77,5 +78,11 @@ class HomeController extends Controller
     public function kontak()
     {
         return view('frontend.kontak');
+    }
+
+    public function store_pesan(Request $request)
+    {
+        Pesan::create($request->all());
+        return redirect()->route('kontak');
     }
 }
