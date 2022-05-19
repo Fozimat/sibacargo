@@ -98,7 +98,7 @@
                     </a>
                 </li>
 
-                <li class="sidebar-item  {{ request()->is('admin/blog*') ? 'active' : '' }} has-sub">
+                <li class="sidebar-item has-sub">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-caret-up-square-fill"></i>
                         <span>Blog</span>
@@ -131,6 +131,13 @@
                     <a href="form-layout.html" class='sidebar-link'>
                         <i class="bi bi-patch-check-fill"></i>
                         <span>Kontak</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item  ">
+                    <a href="{{ route('pesan.index') }}" class='sidebar-link'>
+                        <i class="bi bi-envelope"></i>
+                        <span>Pesan</span>
                     </a>
                 </li>
 
