@@ -25,7 +25,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mt-5 mt-lg-0 ps-lg-5">
-                <div class="block-contents text-center">
+                <div class="block-contents text-justify text-center">
                     <div class="section-title">
                         <h5 class="textleft relative">Layanan</h5>
                         <span>Siba Cargo</span>
@@ -133,33 +133,33 @@
                 </div>
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
-                <div class="single-features-box">
+                <div class="single-features-box min-height-370">
                     <div class="icon">
                         <i class="fal fa-shield-check"></i>
                     </div>
-                    <div class="contents">
+                    <div class="contents text-justify">
                         <h4>Layanan Door to Door</h4>
                         <p> Siba Cargo Memberikan layanan Door to Door secara Gratis keseluruh pelanggan kami.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
-                <div class="single-features-box">
+                <div class="single-features-box min-height-370">
                     <div class="icon">
                         <i class="fal fa-shipping-timed"></i>
                     </div>
-                    <div class="contents">
+                    <div class="contents text-justify">
                         <h4>Gratis Penjemputan</h4>
                         <p>Anda tinggal duduk manis dirumah, barang anda akan kami jemput langsung ke lokasi.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
-                <div class="single-features-box">
+                <div class="single-features-box min-height-370">
                     <div class="icon">
                         <i class="fas fa-box"></i>
                     </div>
-                    <div class="contents">
+                    <div class="contents text-justify">
                         <h4>Gratis Packing Standar</h4>
                         <p>Jadi anda tidak perlu repot lagi melakukan packing, karena kami akan melakukan packing
                             barang anda secara Gratis.</p>
@@ -167,11 +167,11 @@
                 </div>
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
-                <div class="single-features-box">
+                <div class="single-features-box min-height-370">
                     <div class="icon">
                         <i class="far fa-sack-dollar"></i>
                     </div>
-                    <div class="contents">
+                    <div class="contents text-justify">
                         <h4>Nego sampai Deal</h4>
                         <p>Siba Cargo memberikan banyak kemudahan, salah satunya dengan memberikan harga yang lebih
                             murah daripada ekspedisi lainnya.</p>
@@ -179,11 +179,11 @@
                 </div>
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
-                <div class="single-features-box">
+                <div class="single-features-box min-height-370">
                     <div class="icon">
                         <i class="fal fa-user-headset"></i>
                     </div>
-                    <div class="contents">
+                    <div class="contents text-justify">
                         <h4>Tracking Online</h4>
                         <p>Jadi anda dapat melacak keberadaan paket secara online melalui website Siba Cargo
                             sibacargo.co.id.</p>

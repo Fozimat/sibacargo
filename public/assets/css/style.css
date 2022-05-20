@@ -5396,7 +5396,7 @@ header .header-right-element .search-box form button:hover {
     overflow: hidden;
     z-index: 1;
     background-color: #fff;
-    min-height: 450px;
+    min-height: 500px;
 }
 
 .single-features-box:hover .icon {

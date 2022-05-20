@@ -38,34 +38,32 @@
                         @csrf
                         <div class="col-md-6 col-12">
                             <div class="single-personal-info">
-                                <label for="nama_lengkap">Nama_lengkap Lengkap</label>
-                                <input required type="text" id="nama_lengkap" name="nama_lengkap"
-                                    placeholder="Masukkan nama lengkap">
+                                <label for="nama_lengkap">Nama Lengkap</label>
+                                <input required type="text" id="nama_lengkap" name="nama_lengkap">
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="single-personal-info">
                                 <label for="email">Email</label>
-                                <input required type="email" id="email" name="email" placeholder="Masukkan email">
+                                <input required type="email" id="email" name="email">
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="single-personal-info">
                                 <label for="phone">No.Handphone/Telpon</label>
-                                <input required type="number" id="phone" name="phone"
-                                    placeholder="Masukkan nomor handphone">
+                                <input required type="number" id="phone" name="phone">
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="single-personal-info">
                                 <label for="subjek">Subjek</label>
-                                <input required type="text" id="subjek" name="subjek" placeholder="Masukkan subjek">
+                                <input required type="text" id="subjek" name="subjek">
                             </div>
                         </div>
                         <div class="col-md-12 col-12">
                             <div class="single-personal-info">
                                 <label for="pesan">Pesan</label>
-                                <textarea id="pesan" name="pesan" placeholder="Masukkan pesan anda"></textarea>
+                                <textarea id="pesan" name="pesan"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12 col-12">

@@ -218,3 +218,7 @@ a.close-chat {
     text-align: justify; 
     text-justify: inter-word"
 }
+
+.min-height-370 {
+    min-height: 370px;
+}

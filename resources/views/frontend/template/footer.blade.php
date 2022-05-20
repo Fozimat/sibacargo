@@ -33,8 +33,8 @@
 
                 <div class="col-sm-6 col-xl-2">
                     <div class="single-footer-wid">
-                        <div class="wid-title">
-                            <h6></h6>
+                        <div class="wid-title" style="margin-top:90px;">
+                            {{-- <h6>Layanan</h6> --}}
                         </div>
                         <ul>
                             <li><a href="#">Sparepart</a></li>
@@ -89,7 +89,7 @@
         <div class="container align-items-center">
             <div class="bottom-content-wrapper">
                 <div class="row">
-                    <div class="col-md-8 col-12">
+                    <div class="col-md-12 col-12 text-md-center">
                         <div class="copy-rights">
                             <p>
                                 <strong> PT. WAJAH SIBA NUSANTARA </strong> ©{{ date('Y') }}.
@@ -97,7 +97,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 mt-2 mt-md-0 col-12 text-md-end">
+                    <div class="col-md-12 mt-2 mt-md-0 col-12 text-md-center">
                         <div class="social-links">
                             <a target="_blank" href="https://www.facebook.com/sibacargoofficial"><i
                                     class="fab fa-facebook-f" aria-hidden="true"></i></a>
