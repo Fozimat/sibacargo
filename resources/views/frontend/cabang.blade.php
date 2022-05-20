@@ -42,7 +42,14 @@
                     <div class="content">
                         <h4>Batam</h4>
                         <p>Komplek Ruko Mega Legenda Blok C3-12 B Batam, Kepulauan Riau Indonesia</p>
-                        <p>+61 (625) 07520-6644 & 6655</p>
+                        <p><a target="_blank" href="https://api.whatsapp.com/send/?phone=6281261863535"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 812 6186
+                                3535</a></p>
+                        <p> <a target="_blank" class="whatsapp-layanan-text-color"
+                                href="https://api.whatsapp.com/send/?phone=62082178859900"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 821 7885
+                                9900</a></p>
+
                     </div>
                 </div>
             </div>
@@ -53,7 +60,6 @@
                     <div class="content">
                         <h4>TB. Karimun</h4>
                         <p>Jl. Kampung Baru , RT/RW 006/003, Kel. Sungai Pasir Kec. Meral Kab. Karimun, Kepri</p>
-                        <p>+61 (625) 07520-6644 & 6655</p>
                     </div>
                 </div>
             </div>
@@ -64,7 +70,9 @@
                     <div class="content">
                         <h4>Pekanbaru</h4>
                         <p>Jl. Ambon Ruko No. 6 Tengkerang Timur Kec. Tenayan Raya Kota Pekanbaru</p>
-                        <p>+61 (625) 07520-6644 & 6655</p>
+                        <p> <a target="_blank" class="whatsapp-layanan-text-color"
+                                href="https://api.whatsapp.com/send/?phone=6281267775747"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 812 6777 5747</a></p>
                     </div>
                 </div>
             </div>
@@ -75,7 +83,12 @@
                     <div class="content">
                         <h4>Jakarta</h4>
                         <p>JL. Lodan Raya Dua Blok A16 No. 2 RT.6/RW.4 Ancol, Kec. Pademangan Jakarta Utara</p>
-                        <p>+61 (625) 07520-6644 & 6655</p>
+                        <p> <a target="_blank" class="whatsapp-layanan-text-color"
+                                href="https://api.whatsapp.com/send/?phone=6282283280900"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 822 8328 0900</a></p>
+                        <p> <a target="_blank" class="whatsapp-layanan-text-color"
+                                href="https://api.whatsapp.com/send/?phone=6281270300077"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 812 7030 0077</a></p>
                     </div>
                 </div>
             </div>
@@ -87,7 +100,12 @@
                         <h4>Yogyakarta</h4>
                         <p>Perum. Putri Adi Citra B4, Jl. Sukun Ngiringin,Condong Catur, Depok, Sleman, D.I Yogyakarta
                         </p>
-                        <p>+61 (625) 07520-6644 & 6655</p>
+                        <p> <a target="_blank" class="whatsapp-layanan-text-color"
+                                href="https://api.whatsapp.com/send/?phone=628116664470"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 811 6664 470</a></p>
+                        <p> <a target="_blank" class="whatsapp-layanan-text-color"
+                                href="https://api.whatsapp.com/send/?phone=6285264379900"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 852 6437 9900</a></p>
                     </div>
                 </div>
             </div>
@@ -98,7 +116,7 @@
                     <div class="content">
                         <h4>Surabaya</h4>
                         <p>Jalan Pasar Turi Pintu H, Surabaya, Provinsi Jawa Timur, Indonesia</p>
-                        <p>+61 (625) 07520-6644 & 6655</p>
+
                     </div>
                 </div>
             </div>

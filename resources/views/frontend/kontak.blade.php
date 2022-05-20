@@ -42,8 +42,9 @@
                                 Kota Tanjungpinang, Prov. Kepulauan Riau,
                                 Indonesia, 29125
                             </p>
-                            <p>+62 822 8818 3338</p>
-                            <p><a href="#">sibacargo@gmail.com</a></p>
+                            <p><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282288183338"><i
+                                        class="fab fa-whatsapp mr-10"></i>+62 822 8818 3338</a></p>
+                            <p><a href="#"><i class="fas fa-envelope mr-10"></i>sibacargo@gmail.com</a></p>
                             <div class="branch-links">
                                 <a href="{{ route('cabang') }}">semua cabang <i class="fas fa-long-arrow-right"></i></a>
                             </div>
