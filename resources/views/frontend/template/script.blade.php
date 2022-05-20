@@ -13,6 +13,7 @@
 <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 <script src="{{ asset('assets/js/metismenu.js') }}"></script>
 <script src="{{ asset('assets/js/nice-select2.js') }}"></script>
+<script src="{{ asset('admin-assets/vendors/sweetalert2/sweetalert2.all.min.js') }}"></script>
 <script src="{{ asset('assets/js/active.js') }}"></script>
 <script type="text/javascript">
     $(document).on("click",".close-chat",function(){
@@ -21,4 +22,13 @@
     $(document).on("click",".sundakushow-chat, .whatsapp-live-chat", function(){
         $("#whatsapp-chat").addClass("show").removeClass("hide")
     });
+</script>
+<script>
+    @if($flash = session('flash'))
+        Swal.fire(
+        'Good job!',
+        '{{ $flash }}',
+        'success'
+        )
+    @endif
 </script>

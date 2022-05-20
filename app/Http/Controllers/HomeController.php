@@ -83,6 +83,6 @@ class HomeController extends Controller
     public function store_pesan(Request $request)
     {
         Pesan::create($request->all());
-        return redirect()->route('kontak');
+        return redirect()->route('kontak')->with('flash', 'Pesan berhasil dikirim');
     }
 }

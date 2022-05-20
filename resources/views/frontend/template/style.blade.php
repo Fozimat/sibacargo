@@ -15,6 +15,8 @@
 <link rel="stylesheet" href="{{ asset('assets/css/nice-select2.css') }}" />
 <!--  Bootstrap css plugins -->
 <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
+<!--  Sweet alert 2  -->
+<link rel="stylesheet" href="{{ asset('admin-assets/vendors/sweetalert2/sweetalert2.min.css') }}">
 <!--  main style css file -->
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
 <!--  Custom css file -->
