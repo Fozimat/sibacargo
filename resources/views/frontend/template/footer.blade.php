@@ -67,7 +67,9 @@
                                     <i class="fab fa-whatsapp"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <span>+62 822 8818 8338</span>
+                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6282288183338">+62 822
+                                        8818 3338</a>
                                 </div>
                             </div>
                             <div class="single-contact-info">
