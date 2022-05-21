@@ -59,6 +59,8 @@
                     <div class="content">
                         <h4>TB. Karimun</h4>
                         <p>Jl. Kampung Baru , RT/RW 006/003, Kel. Sungai Pasir Kec. Meral Kab. Karimun, Kepri</p>
+                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 812 7030 0077</a></p>
                     </div>
                 </div>
             </div>
@@ -110,7 +112,8 @@
                     <div class="content">
                         <h4>Surabaya</h4>
                         <p>Jalan Pasar Turi Pintu H, Surabaya, Provinsi Jawa Timur, Indonesia</p>
-
+                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 812 7030 0077</a></p>
                     </div>
                 </div>
             </div>

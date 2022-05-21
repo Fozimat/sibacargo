@@ -21,19 +21,17 @@
     </div>
 </div>
 
-<section class="about-us-wrapper section-padding theme-bg">
+<section class="our-service-provide section-padding theme-bg">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 mt-5 mt-lg-0 ps-lg-5">
-                <div class="block-contents text-justify text-center">
-                    <div class="section-title">
-                        <h5 class="textleft relative">Layanan</h5>
-                        <span>Siba Cargo</span>
-                        <h2>Kami<span> Melayani</span></h2>
-                    </div>
+        <div class="col-12 col-lg-12 mb-40">
+            <div class="block-contents text-center">
+                <div class="section-title">
+                    <h5>Ekspedisi </h5>
+                    <h2>Kami <span>Melayani</span></h2>
                 </div>
             </div>
         </div>
+
         <div class="row text-center">
             <div class="col-xl-4 col-md-6 col-12">
                 <div class="single-our-service">
@@ -76,7 +74,7 @@
             </div>
             <div class="col-xl-4 col-md-6 col-12">
                 <div class="single-our-service">
-                    <div class="thumb bg-cover" style="background-image: url('assets/img/services/road2.jpg')">
+                    <div class="thumb bg-cover" style="background-image: url('assets/img/services/drone-fright2.jpg');">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -105,9 +103,8 @@
             </div>
             <div class="col-xl-4 col-md-6 col-12">
                 <div class="single-our-service">
-                    <div class="thumb bg-cover" style="
-              background-image: url('assets/img/services/drone-fright2.jpg');
-            "></div>
+                    <div class="thumb bg-cover" style="background-image: url('assets/img/services/road2.jpg')">
+                    </div>
                     <div class="content">
                         <div class="icon">
                             <i class="flaticon-drone-2"></i>

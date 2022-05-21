@@ -22,12 +22,12 @@
                             <h6>Layanan</h6>
                         </div>
                         <ul>
-                            <li><a href="#">Cargo Darat/Trucking/Alat Berat</a></li>
-                            <li><a href="#">Cargo Udara</a></li>
-                            <li><a href="#">Cargo Laut via Kapal Pelni</a></li>
-                            <li><a href="#">Kirim Mobil/Motor</a></li>
-                            <li><a href="#">Pindah Rumah/Moving</a></li>
-                            <li><a href="#">Project Cargo & Warehousing</a></li>
+                            <li><a href="{{ route('layanan') }}">Cargo Darat/Trucking/Alat Berat</a></li>
+                            <li><a href="{{ route('layanan') }}">Cargo Udara</a></li>
+                            <li><a href="{{ route('layanan') }}">Cargo Laut via Kapal Pelni</a></li>
+                            <li><a href="{{ route('layanan') }}">Kirim Mobil/Motor</a></li>
+                            <li><a href="{{ route('layanan') }}">Pindah Rumah/Moving</a></li>
+                            <li><a href="{{ route('layanan') }}">Project Cargo & Warehousing</a></li>
                         </ul>
                     </div>
                 </div>

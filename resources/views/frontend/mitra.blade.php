@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mtm-30">
+            <div class="row mtm-30 text-center">
                 <div class="col-md-4 col-sm-6 col-lg-3 mt-30">
                     <img class="img-fluid" src="{{ asset('assets/img/brand/1.jpg') }}">
                 </div>

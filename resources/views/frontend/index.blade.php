@@ -166,7 +166,7 @@
             </div>
             <div class="col-xl-4 col-md-6 col-12">
                 <div class="single-our-service">
-                    <div class="thumb bg-cover" style="background-image: url('assets/img/services/road2.jpg')">
+                    <div class="thumb bg-cover" style="background-image: url('assets/img/services/drone-fright2.jpg');">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -195,9 +195,8 @@
             </div>
             <div class="col-xl-4 col-md-6 col-12">
                 <div class="single-our-service">
-                    <div class="thumb bg-cover" style="
-              background-image: url('assets/img/services/drone-fright2.jpg');
-            "></div>
+                    <div class="thumb bg-cover" style="background-image: url('assets/img/services/road2.jpg')">
+                    </div>
                     <div class="content">
                         <div class="icon">
                             <i class="flaticon-drone-2"></i>
@@ -381,7 +380,7 @@
     </div>
 </section>
 
-<div class="video-pop-up-wrapper section-padding bg-cover"
+{{-- <div class="video-pop-up-wrapper section-padding bg-cover"
     style="background-image: url('assets/img/full-video-bg2.jpg')">
     <div class="container">
         <div class="row">
@@ -389,6 +388,26 @@
                 <div class="video-play-btn">
                     <a href="https://www.youtube.com/watch?v=EXZqZ6xu5ck" class="popup-video play-video"><i
                             class="fas fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> --}}
+
+<div class="bg_content magnific">
+    <div>
+        <h2>Video<strong> SIBA CARGO</strong></h2>
+        <p>
+            Kenali kami lebih dekat dan lihatlah apa yang telah kami kerjakan untuk memberikan solusi
+            pengiriman yang ramah, aman, dan nyaman.
+        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center d-flex justify-content-center align-items-center">
+                    <div class="video-play-btn">
+                        <a href="https://www.youtube.com/watch?v=EXZqZ6xu5ck" class="popup-video play-video mt-3"><i
+                                class="fas fa-play"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
