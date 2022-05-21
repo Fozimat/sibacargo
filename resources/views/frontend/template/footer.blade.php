@@ -44,7 +44,8 @@
                                     <i class="fas fa-link"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                    <a target="_blank" onMouseOver="this.style.color='#fd7062'"
+                                        onMouseOut="this.style.color='#9dacb8'" style="font-size: 15px;color: #9dacb8"
                                         href="{{ route('dashboard') }}">Dashboard</a>
                                 </div>
                             </div>
@@ -53,7 +54,8 @@
                                     <i class="fas fa-link"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                    <a target="_blank" onMouseOver="this.style.color='#fd7062'"
+                                        onMouseOut="this.style.color='#9dacb8'" style="font-size: 15px;color: #9dacb8"
                                         href="https://sibacargo.co.id/">Tarif</a>
                                 </div>
                             </div>
@@ -62,7 +64,8 @@
                                     <i class="fas fa-link"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                    <a target="_blank" onMouseOver="this.style.color='#fd7062'"
+                                        onMouseOut="this.style.color='#9dacb8'" style="font-size: 15px;color: #9dacb8"
                                         href="https://sibacargo.co.id/">Tracking</a>
                                 </div>
                             </div>
@@ -71,7 +74,8 @@
                                     <i class="fas fa-link"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                    <a target="_blank" onMouseOver="this.style.color='#fd7062'"
+                                        onMouseOut="this.style.color='#9dacb8'" style="font-size: 15px;color: #9dacb8"
                                         href="https://kirimmurah.com/">Kirim Murah</a>
                                 </div>
                             </div>
@@ -80,7 +84,8 @@
                                     <i class="fas fa-link"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                    <a target="_blank" onMouseOver="this.style.color='#fd7062'"
+                                        onMouseOut="this.style.color='#9dacb8'" style="font-size: 15px;color: #9dacb8"
                                         href="https://c5f6-180-252-59-139.ngrok.io/aplikasi/sistem/">SCL</a>
                                 </div>
                             </div>
@@ -109,7 +114,8 @@
                                     <i class="fab fa-whatsapp"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
                                         href="https://api.whatsapp.com/send/?phone=6282288183338">+62 822
                                         8818 3338</a>
                                 </div>
