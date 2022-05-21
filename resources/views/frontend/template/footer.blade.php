@@ -2,7 +2,7 @@
     <div class="footer-widgets-wrapper theme-bg">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-xl-5">
+                <div class="col-sm-6 col-xl-4">
                     <div class="about-transland pe-md-5 pe-xl-0">
                         <a href="index.html">
                             <img src="{{ asset('assets/img/logosiba-footer.png') }}" alt="Siba Cargo" />
@@ -16,33 +16,75 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-xl-2">
+                <div class="col-sm-6 col-xl-3">
                     <div class="single-footer-wid ps-xl-2">
                         <div class="wid-title">
                             <h6>Layanan</h6>
                         </div>
                         <ul>
-                            <li><a href="#">Barang Pindahan</a></li>
-                            <li><a href="#">Mobil & Motor</a></li>
-                            <li><a href="#">Alat Kesehatan</a></li>
-                            <li><a href="#">Bahan Cair</a></li>
-                            <li><a href="#">Elektronik</a></li>
+                            <li><a href="#">Cargo Darat/Trucking/Alat Berat</a></li>
+                            <li><a href="#">Cargo Udara</a></li>
+                            <li><a href="#">Cargo Laut via Kapal Pelni</a></li>
+                            <li><a href="#">Kirim Mobil/Motor</a></li>
+                            <li><a href="#">Pindah Rumah/Moving</a></li>
+                            <li><a href="#">Project Cargo & Warehousing</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-xl-2">
                     <div class="single-footer-wid">
-                        <div class="wid-title" style="margin-top:90px;">
-                            {{-- <h6>Layanan</h6> --}}
+                        <div class="wid-title">
+                            <h6>Tautan Cepat</h6>
                         </div>
-                        <ul>
-                            <li><a href="#">Sparepart</a></li>
-                            <li><a href="#">Material</a></li>
-                            <li><a href="#">Container</a></li>
-                            <li><a href="#">Alat Berat</a></li>
-                            <li><a href="#">Proyek Cargo</a></li>
-                        </ul>
+                        <div class="get-in-touch">
+
+                            <div class="single-contact-info">
+                                <div class="icon id1">
+                                    <i class="fas fa-link"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="{{ route('dashboard') }}">Dashboard</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id2">
+                                    <i class="fas fa-link"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://sibacargo.co.id/">Tarif</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id3">
+                                    <i class="fas fa-link"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://sibacargo.co.id/">Tracking</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id1">
+                                    <i class="fas fa-link"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://kirimmurah.com/">Kirim Murah</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id2">
+                                    <i class="fas fa-link"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://c5f6-180-252-59-139.ngrok.io/aplikasi/sistem/">SCL</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

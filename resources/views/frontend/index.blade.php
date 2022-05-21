@@ -11,14 +11,14 @@
                     <div class="col-12 col-xxl-6 col-lg-8 col-sm-10">
                         <div class="hero-contents pe-lg-3 text-white">
                             <h1 class="fs-lg animated" data-animation-in="fadeInRight" data-delay-in="0.2">
-                                Ingat Logistik <span>Ingat Siba Cargo</span>
+                                Makin Banyak <span>Makin Murah</span>
                             </h1>
-                            <p class="pe-lg-5 mb-4 animated" data-animation-in="fadeInRight" data-delay-in="0.5">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolores ea excepturi
-                                aliquam ex.
+                            <p class="pe-lg-5 mb-4" data-animation-in="fadeInRight" data-delay-in="0.5">
+                                Barang yang ingin dikirim lebih banyak dan dalam jumlah yang besar, Dapatkan Harga
+                                Spesial dari <strong>SIBA</strong>
                             </p>
-                            <a target="_blank" href="https://sibacargo.co.id/" data-animation-in="fadeInRight"
-                                data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4 animated">Cek Tarif</a>
+                            <a href="{{ route('kontak') }}" data-animation-in="fadeInRight" data-delay-in="0.8"
+                                class="theme-btn border-style me-sm-4 mt-4">Hubungi Kami</a>
                         </div>
                     </div>
                 </div>
@@ -44,12 +44,13 @@
                             <h1 class="fs-lg animated" data-animation-in="fadeInRight" data-delay-in="0.2">
                                 Solusi Terbaik <span>Pengiriman Barang Anda</span>
                             </h1>
-                            <p class="pe-lg-5 mb-4" data-animation-in="fadeInRight" data-delay-in="0.5">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem magni doloremque
-                                atque quae similique nostrum!
+                            <p class="pe-lg-5 mb-4 animated" data-animation-in="fadeInRight" data-delay-in="0.5">
+                                Cari yang selalu bisa diandalkan? <strong>SIBA CARGO</strong> maju paling depan.
                             </p>
                             <a target="_blank" href="https://sibacargo.co.id/" data-animation-in="fadeInRight"
-                                data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4">Lacak Paket</a>
+                                data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4 animated">Cek Tarif</a>
+                            <a target="_blank" href="https://sibacargo.co.id/" data-animation-in="fadeInRight"
+                                data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4 animated">Lacak Paket</a>
                         </div>
                     </div>
                 </div>
