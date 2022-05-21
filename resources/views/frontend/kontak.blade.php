@@ -90,7 +90,7 @@
                         <div class="col-md-12 col-12">
                             <div class="single-personal-info">
                                 <label for="pesan">Pesan</label>
-                                <textarea id="pesan" name="pesan"></textarea>
+                                <textarea id="pesan" name="pesan" required></textarea>
                             </div>
                         </div>
                         <div class="col-md-12 col-12">
