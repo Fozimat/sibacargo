@@ -4,8 +4,7 @@
 <section class="hero-wrapper hero-1">
     <div class="hero-slider-active transland-dots">
         <div class="single-slide">
-            <div class="slide-bg bg-cover wow zoomIn"
-                style="background-image: url('assets/img/home1/slider_baru1.png')">
+            <div class="slide-bg bg-cover wow zoomIn" style="background-image: url('assets/img/home/slider_baru1.png')">
             </div>
             <div class="container">
                 <div class="row">
@@ -37,7 +36,7 @@
             </div>
         </div>
         <div class="single-slide">
-            <div class="slide-bg bg-cover" style="background-image: url('assets/img/home1/slider_baru2.png')"></div>
+            <div class="slide-bg bg-cover" style="background-image: url('assets/img/home/slider_baru2.png')"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-xxl-6 col-lg-8 col-sm-10">
