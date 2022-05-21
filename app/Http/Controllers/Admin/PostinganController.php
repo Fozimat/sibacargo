@@ -4,10 +4,10 @@ namespace App\Http\Controllers\Admin;
 
 use App\Models\Kategori;
 use App\Models\Postingan;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\FormPostinganRequest;
-use Illuminate\Support\Facades\File;
 
 class PostinganController extends Controller
 {
@@ -48,6 +48,7 @@ class PostinganController extends Controller
             'id_kategori' => $request->id_kategori,
             'penulis' => $request->penulis,
             'judul' => $request->judul,
+            'slug' => Str::slug($request->judul, '-'),
             'deskripsi' => $request->deskripsi,
             'tanggal_posting' => $request->tanggal_posting,
             'gambar' => $nama_gambar,

@@ -42,7 +42,7 @@
                     <div class="col-12 col-xxl-6 col-lg-8 col-sm-10">
                         <div class="hero-contents pe-lg-3 text-white">
                             <h1 class="fs-lg animated" data-animation-in="fadeInRight" data-delay-in="0.2">
-                                Solusi Terbaik <span>Pengiriman Barang Anda</span>
+                                Ekspedisi Murah <span>dan Berkualitas</span>
                             </h1>
                             <p class="pe-lg-5 mb-4 animated" data-animation-in="fadeInRight" data-delay-in="0.5">
                                 Cari yang selalu bisa diandalkan? <strong>SIBA CARGO</strong> maju paling depan.
