@@ -4,7 +4,8 @@
 <section class="hero-wrapper hero-1">
     <div class="hero-slider-active transland-dots">
         <div class="single-slide">
-            <div class="slide-bg bg-cover wow zoomIn" style="background-image: url('assets/img/home1/slide1.jpg')">
+            <div class="slide-bg bg-cover wow zoomIn"
+                style="background-image: url('assets/img/home1/slider_baru1.png')">
             </div>
             <div class="container">
                 <div class="row">
@@ -36,7 +37,7 @@
             </div>
         </div>
         <div class="single-slide">
-            <div class="slide-bg bg-cover" style="background-image: url('assets/img/home1/slide2.jpg')"></div>
+            <div class="slide-bg bg-cover" style="background-image: url('assets/img/home1/slider_baru2.png')"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-xxl-6 col-lg-8 col-sm-10">
@@ -81,7 +82,7 @@
         <div class="row">
             <div class="col-lg-5 text-center text-lg-start">
                 <div class="about-img">
-                    <img src="assets/img/about-air.jpg" alt="" />
+                    <img src="{{ asset('assets/img/about.png') }}" alt="" />
                 </div>
             </div>
             <div class="col-lg-7 mt-5 mt-lg-0 ps-lg-5">
@@ -370,8 +371,8 @@
                                     MMMM Y') }}</span>
                             </div>
                         </div>
-                        <h3><a href="{{ route('blog.detail', $post->id) }}">{{ $post->judul }}</a></h3>
-                        <a class="read-btn" href="{{ route('blog.detail', $post->id) }}">Baca Selengkapnya</a>
+                        <h3><a href="{{ route('blog.detail', $post->slug) }}">{{ $post->judul }}</a></h3>
+                        <a class="read-btn" href="{{ route('blog.detail', $post->slug) }}">Baca Selengkapnya</a>
                     </div>
                 </div>
             </div>

@@ -68,10 +68,11 @@ class HomeController extends Controller
         return view('frontend.blog', compact(['postingan', 'kategori', 'postingan_terbaru']));
     }
 
-    public function show(Postingan $postingan)
+    public function show($slug)
     {
         $postingan_terbaru = Postingan::orderBy('tanggal_posting', 'DESC')->take(4)->get();
         $kategori = Kategori::with(['postingan'])->get();
+        $postingan = Postingan::with(['kategori'])->where('slug', $slug)->first();
         return view('frontend.blog-detail', compact(['postingan', 'kategori', 'postingan_terbaru']));
     }
 

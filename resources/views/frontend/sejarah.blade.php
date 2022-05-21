@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-lg-5 text-center text-lg-start">
                 <div class="about-img">
-                    <img src="assets/img/about-air.jpg" alt="" />
+                    <img src="{{ asset('assets/img/about.png') }}" alt="" />
                 </div>
             </div>
             <div class="col-lg-7 mt-5 mt-lg-0 ps-lg-5">

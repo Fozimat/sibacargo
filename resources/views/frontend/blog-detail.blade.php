@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="post-content">
                                     <h5>
-                                        <a href="news-details.html">{{ $post->judul }}</a>
+                                        <a href="{{ $post->slug }}">{{ $post->judul }}</a>
                                     </h5>
                                     <div class="post-date">
                                         <i class="far fa-calendar-alt"></i>{{ $post->tanggal_posting->isoFormat('dddd, D

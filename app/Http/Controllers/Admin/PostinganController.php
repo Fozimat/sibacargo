@@ -18,7 +18,7 @@ class PostinganController extends Controller
      */
     public function index()
     {
-        $postingan = Postingan::with(['kategori'])->get();
+        $postingan = Postingan::with(['kategori'])->orderBy('tanggal_posting', 'DESC')->get();
         return view('backend.postingan.index', compact(['postingan']));
     }
 

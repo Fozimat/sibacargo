@@ -10,7 +10,7 @@ Postingan
 <script src="{{ asset('admin-assets/vendors/tinymce/plugins/code/plugin.min.js') }}"></script>
 <script>
     tinymce.init({ selector: '#editor',
-    plugins: 'table',
+    plugins: ['table', 'autoresize'],
     });
 </script>
 @endpush

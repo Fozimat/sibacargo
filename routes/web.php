@@ -31,7 +31,7 @@ Route::get('/cabang', [App\Http\Controllers\HomeController::class, 'cabang'])->n
 Route::get('/mitra', [App\Http\Controllers\HomeController::class, 'mitra'])->name('mitra');
 Route::get('/portfolio', [App\Http\Controllers\HomeController::class, 'portfolio'])->name('portfolio');
 Route::get('/videos', [App\Http\Controllers\HomeController::class, 'videos'])->name('videos');
-Route::get('/blog/{postingan}', [App\Http\Controllers\HomeController::class, 'show'])->name('blog.detail');
+Route::get('/blog/{slug}', [App\Http\Controllers\HomeController::class, 'show'])->name('blog.detail');
 
 // Layanan
 Route::get('/layanan', [App\Http\Controllers\HomeController::class, 'layanan'])->name('layanan');

@@ -33,7 +33,7 @@
                                 <a href="#">{{ $post->kategori->nama_kategori }}</a>
                             </div>
                             <h2>
-                                <a href="{{ route('blog.detail', $post->id) }}">{{ $post->judul }}</a>
+                                <a href="{{ route('blog.detail', $post->slug) }}">{{ $post->judul }}</a>
                             </h2>
                             <div class="post-meta">
                                 <span><i class="fal fa-calendar-alt"></i>{{ $post->tanggal_posting->isoFormat('dddd, D
@@ -48,7 +48,7 @@
                                     <h5><a href="#">by {{ $post->penulis }}</a></h5>
                                 </div>
                                 <div class="post-link">
-                                    <a href="{{ route('blog.detail', $post->id) }}"><i class="fal fa-arrow-right"></i>
+                                    <a href="{{ route('blog.detail', $post->slug) }}"><i class="fal fa-arrow-right"></i>
                                         Baca Selengkapnya</a>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@
                                 </div>
                                 <div class="post-content">
                                     <h5>
-                                        <a href="{{ route('blog.detail', $post->id) }}">{{ $post->judul }}</a>
+                                        <a href="{{ route('blog.detail', $post->slug) }}">{{ $post->judul }}</a>
                                     </h5>
                                     <div class="post-date">
                                         <i class="far fa-calendar-alt"></i>{{ $post->tanggal_posting->isoFormat('dddd, D

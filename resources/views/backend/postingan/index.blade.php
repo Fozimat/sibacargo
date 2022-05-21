@@ -74,7 +74,7 @@ Postingan
                                 <td>{{ $p->judul }}</td>
                                 <td>{{ $p->penulis }}</td>
                                 <td>{{ $p->kategori->nama_kategori }}</td>
-                                <td>{{ $p->tanggal_posting }}</td>
+                                <td>{{ $p->tanggal_posting->isoFormat('dddd, D MMMM Y, HH:mm') }}</td>
                                 <td><img src="{{ asset('postingan/'.$p->gambar) }}" style="width: 100px;" alt=""></td>
                                 <td>
                                     <a href="{{ route('postingan.edit', $p->id) }}"
