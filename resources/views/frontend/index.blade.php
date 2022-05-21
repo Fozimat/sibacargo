@@ -323,9 +323,9 @@
     </div>
 </section>
 
-<section class="d-flex justify-content-center align-items-center" style="background-color: #0077C3;height: 120px;">
+<section class="d-flex justify-content-center align-items-center" style="background-color: #0077C3;min-height: 140px;">
     <div class="container">
-        <div class="row">
+        <div class="row pt-20 pb-20">
             <div class="col-md-10">
                 <h2 class="text-white mt-3">Konsultasi Online 24 Jam Nonstop, Mulai Obrolan ?</h2>
             </div>
