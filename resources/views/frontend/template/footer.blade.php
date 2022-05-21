@@ -86,7 +86,7 @@
                                 <div class="contact-info">
                                     <a target="_blank" onMouseOver="this.style.color='#fd7062'"
                                         onMouseOut="this.style.color='#9dacb8'" style="font-size: 15px;color: #9dacb8"
-                                        href="https://c5f6-180-252-59-139.ngrok.io/aplikasi/sistem/">SCL</a>
+                                        href="https://{{ env('SCL_LINK') }}.ngrok.io/aplikasi/sistem/">SCL</a>
                                 </div>
                             </div>
                         </div>
