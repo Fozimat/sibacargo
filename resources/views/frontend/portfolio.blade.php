@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mtm-30">
+        <div class="row mtm-30 text-center">
             <div class="col-md-6 col-12 col-lg-4 mt-30">
                 <a href="{{ asset('assets/img/portfolio/angkut.jpg') }}" data-toggle="lightbox"
                     data-gallery="example-gallery">
