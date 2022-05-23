@@ -19,7 +19,9 @@ use App\Http\Controllers\Admin\PostinganController;
 */
 
 
-Auth::routes();
+Auth::routes([
+    'register' => false
+]);
 
 // Home
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
