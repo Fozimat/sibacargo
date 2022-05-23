@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="page-banner-wrap text-center bg-cover"
-    style="background-image: url({{ asset('assets/img/page-banner.jpg') }})">
+    style="background-image: url('{{ asset('assets/img/page-banner2.jpg') }}')">
     <div class="container">
         <div class="page-heading text-white">
             <h1>Blog</h1>
