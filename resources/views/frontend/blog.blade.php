@@ -44,7 +44,7 @@
                             <div class="d-flex justify-content-between align-items-center mt-30">
                                 <div class="author-info">
                                     <div class="author-img" style="
-                          background-image: url('assets/img/blog/author_img.jpg');
+                          background-image: url('{{ asset('assets/img/blog/user.png') }}');
                         "></div>
                                     <h5><a href="#">by {{ $post->penulis }}</a></h5>
                                 </div>
