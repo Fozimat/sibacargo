@@ -49,13 +49,24 @@
                             <div class="branch-links">
                                 <a href="{{ route('cabang') }}">semua cabang <i class="fas fa-long-arrow-right"></i></a>
                             </div>
+                            <div class="">
+                                <a target="_blank" href="https://www.facebook.com/sibacargoofficial"><i
+                                        class="fab fa-facebook-f fa-2x" aria-hidden="true"></i></a>
+                                <a target="_blank" href="https://twitter.com/sibacargoofficial"><i
+                                        class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/sibacargoofficial/"><i
+                                        class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
+                                <a target="_blank"
+                                    href="https://www.youtube.com/channel/UC8P6Ri76hj4_WZp5iWW_OUA/featured"><i
+                                        class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-6 col-12">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3186964282736!2d104.48791981429696!3d0.9067492630925243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d96d4a4feb273d%3A0xe4d9c50b59a3de18!2sSIBA%20CARGO!5e0!3m2!1sid!2sid!4v1653019438269!5m2!1sid!2sid"
-                        style="border:0;margin-top: 90px;width: 100%;min-height: 415px;" allowfullscreen=""
+                        style="border:0;margin-top: 90px;width: 100%;min-height: 453px;" allowfullscreen=""
                         loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
