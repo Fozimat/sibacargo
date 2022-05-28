@@ -39,7 +39,7 @@
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="single-branch-card">
                     <div class="country-flag bg-cover"
-                        style="background-image: url('{{ asset('assets/img/cabang/batam.jpg') }}')"></div>
+                        style="background-image: url('{{ asset('assets/img/cabang/pinang.jpg') }}')"></div>
                     <div class="content">
                         <h4>Tanjungpinang</h4>
                         <p>Jl. Raja Haji Fisabilillah, Km. 8 Atas, Kota Tanjungpinang, Prov. Kepulauan Riau, Indonesia,
