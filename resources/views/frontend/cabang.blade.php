@@ -41,6 +41,20 @@
                     <div class="country-flag bg-cover"
                         style="background-image: url('{{ asset('assets/img/cabang/batam.jpg') }}')"></div>
                     <div class="content">
+                        <h4>Tanjungpinang</h4>
+                        <p>Jl. Raja Haji Fisabilillah, Km. 8 Atas, Kota Tanjungpinang, Prov. Kepulauan Riau, Indonesia,
+                            29125</p>
+                        <p><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282288183338"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 822 8818 3338</a></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="single-branch-card">
+                    <div class="country-flag bg-cover"
+                        style="background-image: url('{{ asset('assets/img/cabang/batam.jpg') }}')"></div>
+                    <div class="content">
                         <h4>Batam</h4>
                         <p>Komplek Ruko Mega Legenda Blok C3-12 B Batam, Kepulauan Riau Indonesia</p>
                         <p><a target="_blank" href="https://api.whatsapp.com/send/?phone=6281261863535"><i
