@@ -380,19 +380,18 @@
     </div>
 </section>
 
-{{-- <div class="video-pop-up-wrapper section-padding bg-cover"
-    style="background-image: url('assets/img/full-video-bg2.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center d-flex justify-content-center align-items-center">
-                <div class="video-play-btn">
-                    <a href="https://www.youtube.com/watch?v=EXZqZ6xu5ck" class="popup-video play-video"><i
-                            class="fas fa-play"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> --}}
+<style>
+    .bg_content {
+        display: table;
+        width: 100%;
+        height: 500px;
+        background: url('{{ asset("assets/img/bg_parallax.jpg") }}') center center no-repeat fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+</style>
 
 <div class="bg_content magnific">
     <div>

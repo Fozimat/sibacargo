@@ -233,16 +233,7 @@ a.close-chat {
     color: #0AB31C;
 }
 
-.bg_content {
-    display: table;
-    width: 100%;
-    height: 500px;
-    background: url('https://sibacargo.id/img/bg_parallax.jpg') center center no-repeat fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
+
 
 .bg_content>div {
     display: table-cell;
