@@ -81,6 +81,16 @@ class HomeController extends Controller
         return view('frontend.kontak');
     }
 
+    public function tracking()
+    {
+        return view('frontend.tracking');
+    }
+
+    public function karir()
+    {
+        return view('frontend.karir');
+    }
+
     public function store_pesan(Request $request)
     {
         Pesan::create($request->all());

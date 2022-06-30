@@ -76,6 +76,85 @@
     </svg>
 </section>
 
+
+<section class="portfolio section-padding ">
+    <div class="container">
+        <div class="col-12 col-lg-12 mb-40">
+            <div class="block-contents text-center">
+                <div class="section-title">
+                    <h5>Siba</h5>
+                    <span>Dapatkan Harga Special</span>
+                    <h2>Promo</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mtm-30">
+            <div class="single-price-bar active mb-30">
+                <div class="row">
+                    <div class="col-md-6 col-12 col-lg-4">
+                        <a href="{{ asset('assets/img/promo/promo1.jpeg') }}" data-toggle="lightbox"
+                            data-gallery="example-gallery">
+                            <img src="{{ asset('assets/img/promo/promo1.jpeg') }}" alt="image">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-8">
+                        <h2>Promo Juni Happy
+                            Jakarta Kepri tidak pernah semurah ini</h2>
+                        <p>Siba mengerti, kehidupan memang tidak bisa lepas dari mobilisasi. Kini, kamu bisa kirim
+                            barangmu
+                            untuk keluarga yang tersayang atau pelanggan setia di Area Kepulauan Riau dengan happy!</p>
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282288183338"
+                            class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
+                                class="fal fa-long-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="single-price-bar pink mb-30">
+                <div class="row">
+                    <div class="col-md-6 col-12 col-lg-8">
+                        <h2>Pekanbaru - Jakarta maupun sebaliknya
+                            Murah banget pakai siba</h2>
+                        <p>Dengan tarif kirim yang murah dan berani diadu, siba cargo tetap berkomitmen untuk memberikan
+                            pelayanan terbaiknya.</p>
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"
+                            class="theme-btn minimal-btn mt-30 mb-30">yuk, kirim sekarang<i
+                                class="fal fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-4">
+                        <a href="{{ asset('assets/img/promo/promo3.jpeg') }}" data-toggle="lightbox"
+                            data-gallery="example-gallery">
+                            <img src="{{ asset('assets/img/promo/promo3.jpeg') }}" alt="image">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="single-price-bar active mb-30">
+                <div class="row">
+                    <div class="col-md-6 col-12 col-lg-4">
+                        <a href="{{ asset('assets/img/promo/promo2.jpeg') }}" data-toggle="lightbox"
+                            data-gallery="example-gallery">
+                            <img src="{{ asset('assets/img/promo/promo2.jpeg') }}" alt="image">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-8">
+                        <h2>Tanjung pinang - Jakarta dan sebaliknya
+                        </h2>
+                        <p>Khusus untuk kamu yang mempercayai Siba Cargo, kamu berhak mendapatkan harga special kirim
+                            barang dari Tanjung pinang ke Jakarta dan sebaliknya!</p>
+                        <a href="https://api.whatsapp.com/send/?phone=6282178859900" target="_blank"
+                            class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
+                                class="fal fa-long-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
 <section class="about-us-wrapper section-padding">
     <div class="container">
         <div class="row">

@@ -4,13 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* 
+    
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; */
+    user-select: none;
 }
 
 body,
@@ -5550,7 +5550,25 @@ header .header-right-element .search-box form button:hover {
 
 .single-price-bar.active {
     background: #4ab9cf;
+    background: linear-gradient(300deg, #3557c6, #4ab9cf 100%);
     border-color: #4ab9cf;
+    border-radius: 30px;
+}
+
+.single-price-bar.pink {
+    /* background: rgba(239, 57, 160); */
+    /* background: linear-gradient(
+        to rgba(239, 57, 160),
+        rgba(245, 128, 194),
+        rgba(249, 170, 214)
+    ); */
+    background: linear-gradient(
+        150deg,
+        rgba(239, 57, 160),
+        rgba(245, 128, 194) 100%
+    );
+    border-color: rgba(239, 57, 160);
+    border-radius: 30px;
 }
 
 .single-price-bar.active h1,
@@ -5564,10 +5582,27 @@ header .header-right-element .search-box form button:hover {
     color: #fff !important;
 }
 
+.single-price-bar.pink h1,
+.single-price-bar.pink h3,
+.single-price-bar.pink h2,
+.single-price-bar.pink h5,
+.single-price-bar.pink h6,
+.single-price-bar.pink a,
+.single-price-bar.pink p,
+.single-price-bar.pink span {
+    color: #fff !important;
+}
+
 .single-price-bar.active .theme-btn:hover {
     background-color: #fff;
     border-color: #fff;
     color: #4ab9cf !important;
+}
+
+.single-price-bar.pink .theme-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: rgba(239, 57, 160) !important;
 }
 
 .single-price-bar .package-name h3 {

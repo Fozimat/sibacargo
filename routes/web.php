@@ -42,9 +42,16 @@ Route::get('/layanan', [App\Http\Controllers\HomeController::class, 'layanan'])-
 // Blog
 Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('blog');
 
+// Tracking
+Route::get('/tracking', [App\Http\Controllers\HomeController::class, 'tracking'])->name('tracking');
+
 // Kontak
 Route::get('/kontak', [App\Http\Controllers\HomeController::class, 'kontak'])->name('kontak');
 Route::post('/kontak', [App\Http\Controllers\HomeController::class, 'store_pesan'])->name('store.pesan');
+
+// Karir
+Route::get('/karir', [App\Http\Controllers\HomeController::class, 'karir'])->name('karir');
+
 
 // Admin
 Route::prefix('admin')->middleware(['auth'])->group(function () {

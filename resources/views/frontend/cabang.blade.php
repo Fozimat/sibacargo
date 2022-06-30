@@ -98,12 +98,8 @@
                     <div class="content">
                         <h4>Jakarta</h4>
                         <p>JL. Lodan Raya Dua Blok A16 No. 2 RT.6/RW.4 Ancol, Kec. Pademangan Jakarta Utara</p>
-                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282283280900"><i
-                                    class="fab fa-whatsapp mr-10"></i>+62 822 8328 0900</a></p>
                         <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"><i
                                     class="fab fa-whatsapp mr-10"></i>+62 812 7030 0077</a></p>
-                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=628117774470"><i
-                                    class="fab fa-whatsapp mr-10"></i>+62 811 777 4470</a></p>
                     </div>
                 </div>
             </div>

@@ -27,11 +27,11 @@
                             <li>
                                 <a href="{{ route('layanan') }}">Layanan</a>
                             </li>
-                            <li><a href="#">Promo</a></li>
                             <li><a href="{{ route('blog') }}">Blog</a></li>
-                            <li><a target="_blank" href="https://sibacargo.co.id">Tracking</a></li>
-                            <li><a target="_blank" href="https://sibacargo.co.id/">Cek Tarif</a></li>
+                            <li><a href="{{ route('tracking') }}">Tracking</a></li>
+                            <li><a target="_blank" href="https://sibacargo.co.id/">Tarif</a></li>
                             <li><a href="{{ route('kontak') }}">Kontak</a></li>
+                            <li><a href="{{ route('karir') }}">Karir</a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,11 +61,11 @@
                                     </ul>
                                 </li>
                                 <li><a href="{{ route('layanan') }}">Layanan</a></li>
-                                <li><a href="#">Promo</a></li>
                                 <li><a href="{{ route('blog') }}">Blog</a></li>
-                                <li><a href="#">Tracking</a></li>
-                                <li><a href="#">Cek Tarif</a></li>
+                                <li><a href="{{ route('tracking') }}">Tracking</a></li>
+                                <li><a target="_blank" href="https://sibacargo.co.id/">Tarif</a></li>
                                 <li><a href="{{ route('kontak') }}">Kontak</a></li>
+                                <li><a href="{{ route('karir') }}">Karir</a></li>
                             </ul>
                         </nav>
                     </div>
