@@ -1,5 +1,5 @@
 @extends('frontend.template')
-
+@section('title', Str::title($postingan->judul))
 @section('content')
 <div class="page-banner-wrap text-center bg-cover"
     style="background-image: url('{{ asset('assets/img/page-banner2.jpg') }}')">

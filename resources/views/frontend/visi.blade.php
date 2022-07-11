@@ -1,5 +1,5 @@
 @extends('frontend.template')
-
+@section('title', 'Visi, Misi, dan Tujuan - Siba Cargo')
 @section('content')
 
 <div class="page-banner-wrap text-center bg-cover"

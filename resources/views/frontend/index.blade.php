@@ -1,5 +1,5 @@
 @extends('frontend.template')
-
+@section('title', 'SIBA CARGO - Jasa Ekspedisi Murah')
 @section('content')
 <section class="hero-wrapper hero-1">
     <div class="hero-slider-active transland-dots">

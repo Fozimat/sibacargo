@@ -429,7 +429,7 @@
     Jasa Pengiriman Murah dari Manokwari ke Jakarta,
     Siba Cargo Jastip Seluruh Indonesia'>
     <!-- ======== Page title ============ -->
-    <title>SIBA CARGO | Jasa Ekspedisi Murah</title>
+    <title>@yield('title')</title>
     {{-- style --}}
     @include('frontend.template.style')
 </head>
