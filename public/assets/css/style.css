@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -5550,8 +5550,8 @@ header .header-right-element .search-box form button:hover {
 
 .single-price-bar.active {
     background: #4ab9cf;
-    background: linear-gradient(300deg, #3557c6, #4ab9cf 100%);
-    border-color: #4ab9cf;
+    background: linear-gradient(300deg, #c63556, #4ab9cf 100%);
+    /* border-color: #4ab9cf; */
     border-radius: 30px;
 }
 

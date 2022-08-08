@@ -92,18 +92,22 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/pku(1).png') }}" style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/pku(2).png') }}" style="width:100%">
+                        <img class="mySlides" src="{{ asset('assets/img/promo/merdeka merah.png') }}"
+                            style="width:100%">
+                        <img class="mySlides" src="{{ asset('assets/img/promo/merdeka tnj kepri.png') }}"
+                            style="width:100%">
+                        <img class="mySlides" src="{{ asset('assets/img/promo/merdeka tnj indonesia.png') }}"
+                            style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Kirim Barang Ringan Pekanbaru - Kepri Bukan Halangan Lagi!</h2>
+                        <h2>Promo Spesial Kemerdekaan Pengiriman dari Tanjungpinang ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Emang deh yaaa Siba Cargo paling paham
                             kebutuhan kalian. Coba deh perhatiin, kali ini Siba
-                            Cargo punya Promo kirim barang ringan dari Pekanbaru ke Batam, Tanjung Pinang dan Jakarta
-                            minimal 1Kg ajaaaa 😁😎
+                            Cargo punya Promo Spesial Kemerdekaan dari Tanjungpinang ke seluruh kota besar di Indonesia
+                            😁😎
                             Kamu bisa banget gunakan promo ini untuk kirim barang pribadimu atau barang jualan ke
                             customer kaliaaan. </p>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282288183338"
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=628116664470"
                             class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -113,58 +117,77 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Jakarta - Kepri
-                            Murah banget pakai siba</h2>
+                        <h2>Promo Spesial Kemerdekaan Pengiriman dari Batam ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Dengan tarif kirim yang murah dan
                             berani diadu, siba cargo tetap berkomitmen untuk memberikan
                             pelayanan terbaiknya.</p>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282178859900"
                             class="theme-btn minimal-btn mt-30 mb-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/jkt(1).png') }}" style="width:100%">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/jkt(2).png') }}" style="width:100%">
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/merdeka merah.png') }}"
+                            style="width:100%">
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/merdeka bth kepri.png') }}"
+                            style="width:100%">
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/merdeka bth indonesia.png') }}"
+                            style="width:100%">
                     </div>
                 </div>
             </div>
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/promo(1kg).png') }}" style="width:100%">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/promo(1kg)2.png') }}" style="width:100%">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/promo(1kg)3.png') }}" style="width:100%">
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/merdeka merah.png') }}"
+                            style="width:100%">
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/merdeka pku tnj.png') }}"
+                            style="width:100%">
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/merdeka pku bth.png') }}"
+                            style="width:100%">
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/merdeka pku kepri.png') }}"
+                            style="width:100%">
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/merdeka pku indonesia.png') }}"
+                            style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo minimum 1 kg ke Jawa/Sumatra
+                        <h2>Promo Spesial Kemerdekaan Pengiriman dari Pekanbaru ke Seluruh Indonesia
                         </h2>
                         <p style="text-align: justify; text-justify: inter-word">Kamu bisa banget gunakan promo ini
-                            untuk kirim barang dengan jauh lebih hemat dari Tanjung
-                            Pinang ke area Sumatera dan Jawa yang sudah tercantum diatas, apalagi kamu bisa banget dapat
-                            tambahan diskon 6% lhooo 😁😁😁</p>
-                        <a href="https://api.whatsapp.com/send/?phone=6282178859900" target="_blank"
+                            untuk kirim barang dengan jauh lebih hemat dari Pekanbaru ke seluruh kota besar di
+                            Indonesia, apalagi kamu
+                            bisa banget dapat
+                            tambahan diskon lhooo 😁😁😁</p>
+                        <a href="https://api.whatsapp.com/send/?phone=6281364977393" target="_blank"
                             class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-            {{-- <div class="single-price-bar active mb-30">
+            <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Pekanbaru - Jakarta maupun sebaliknya
-                            Murah banget pakai siba</h2>
-                        <p>Dengan tarif kirim yang murah dan berani diadu, siba cargo tetap berkomitmen untuk memberikan
-                            pelayanan terbaiknya.</p>
+                        <h2>Promo Spesial Kemerdekaan Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
+                        <p style="text-align: justify; text-justify: inter-word">
+                            Kamu bisa banget gunakan promo ini untuk kirim barang pindahan, proyek, usaha dengan jauh
+                            lebih hemat dari jakarta ke seluruh kota besar di Indonesia</p>
                         <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"
                             class="theme-btn minimal-btn mt-30 mb-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/jkt(1).png') }}" style="width:100%">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/jkt(2).png') }}" style="width:100%">
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/merdeka merah.png') }}"
+                            style="width:100%">
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/merdeka jkt tnj.png') }}"
+                            style="width:100%">
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/merdeka jkt bth.png') }}"
+                            style="width:100%">
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/merdeka jkt kepri.png') }}"
+                            style="width:100%">
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/merdeka jkt indonesia.png') }}"
+                            style="width:100%">
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
     </div>
 
