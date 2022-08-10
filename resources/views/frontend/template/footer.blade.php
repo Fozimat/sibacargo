@@ -4,13 +4,13 @@
             <div class="row">
                 <div class="col-sm-6 col-xl-4">
                     <div class="about-transland pe-md-5 pe-xl-0">
-                        <a href="index.html">
+                        <a href="#">
                             <img src="{{ asset('assets/img/logosiba-footer.png') }}" alt="Siba Cargo" />
                         </a>
                         <p class="text-justify">
                             <span style="color: rgb(237, 236, 236); font-weight: 900">PT. Wajah SIBA Nusantara </span>
                             merupakan perusahaan jasa pengiriman cepat dalam layanan cargo Laut, Darat, dan Udara.
-                            Berpengalaman sejak 2018 dan telah memiliki kantor cabang di Batam, Jakarta, Pekanbaru dan
+                            Berpengalaman sejak 2017 dan telah memiliki kantor cabang di Batam, Jakarta, Pekanbaru dan
                             Agen Perwakilan di kota lainnya.
                         </p>
                     </div>
@@ -86,7 +86,17 @@
                                 <div class="contact-info">
                                     <a target="_blank" onMouseOver="this.style.color='#fd7062'"
                                         onMouseOut="this.style.color='#9dacb8'" style="font-size: 15px;color: #9dacb8"
-                                        href="https://{{ env('SCL_LINK') }}.ngrok.io/aplikasi/sistem/">SCL</a>
+                                        href="https://6c98-106-0-48-6.ngrok.io/aplikasi/sistem/">SCL</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id3">
+                                    <i class="fas fa-link"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a target="_blank" onMouseOver="this.style.color='#fd7062'"
+                                        onMouseOut="this.style.color='#9dacb8'" style="font-size: 15px;color: #9dacb8"
+                                        href="https://dev.tim.sibacargo.co.id/">Tim Siba</a>
                                 </div>
                             </div>
                         </div>
@@ -97,6 +107,45 @@
                     <div class="single-footer-wid site-info-widget">
                         <div class="wid-title">
                             <h6>Kantor Pusat</h6>
+                        </div>
+                        <div class="get-in-touch">
+                            <div class="single-contact-info">
+                                <div class="icon id1">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>Jl. Kijang Lama Pergudangan Metro Melayu Kota Piring, Kota
+                                        Tanjungpinang</span>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6282288183338">+62 822
+                                        8818 3338</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id3">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>siba.admn@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single-footer-wid site-info-widget">
+                        <div class="wid-title">
+                            <h6>Cabang Tanjungpinang</h6>
                         </div>
                         <div class="get-in-touch">
                             <div class="single-contact-info">
@@ -116,8 +165,7 @@
                                 <div class="contact-info">
                                     <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
                                         target="_blank" style="font-size: 15px;color: #9dacb8"
-                                        href="https://api.whatsapp.com/send/?phone=6282288183338">+62 822
-                                        8818 3338</a>
+                                        href="https://api.whatsapp.com/send/?phone=6281270300077">+62 812 7030 0077</a>
                                 </div>
                             </div>
                             <div class="single-contact-info">
@@ -125,7 +173,153 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <span>sibacargo@gmail.com</span>
+                                    <span>siba.admn@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single-footer-wid site-info-widget">
+                        <div class="wid-title">
+                            <h6>Cabang Batam</h6>
+                        </div>
+                        <div class="get-in-touch">
+                            <div class="single-contact-info">
+                                <div class="icon id1">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>Komplek Ruko Mega Legenda Blok C3-12 B Batam, Kepulauan Riau Indonesia</span>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=628116945656">+62 811 6945 656</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id3">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>siba.admn@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single-footer-wid site-info-widget">
+                        <div class="wid-title">
+                            <h6>Cabang Pekanbaru</h6>
+                        </div>
+                        <div class="get-in-touch">
+                            <div class="single-contact-info">
+                                <div class="icon id1">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>Jl. Ambon Ruko No. 6 Tengkerang Timur Kec. Tenayan Raya Kota Pekanbaru</span>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6281364977393">+62 813 6497 7393</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id3">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>siba.admn@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single-footer-wid site-info-widget">
+                        <div class="wid-title">
+                            <h6>Cabang Jakarta</h6>
+                        </div>
+                        <div class="get-in-touch">
+                            <div class="single-contact-info">
+                                <div class="icon id1">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>JL. Lodan Raya Dua Blok A16 No. 2 RT.6/RW.4 Ancol, Kec. Pademangan Jakarta
+                                        Utara</span>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6285273540077">+62 852 7354 0077</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id3">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>siba.admn@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single-footer-wid site-info-widget">
+                        <div class="wid-title">
+                            <h6>Cabang Yogyakarta</h6>
+                        </div>
+                        <div class="get-in-touch">
+                            <div class="single-contact-info">
+                                <div class="icon id1">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>Perum. Putri Adi Citra B4, Jl. Sukun Ngiringin,Condong Catur, Depok, Sleman,
+                                        D.I Yogyakarta</span>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6285273540077">+62 852 7354 0077</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon id3">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <span>siba.admn@gmail.com</span>
                                 </div>
                             </div>
                         </div>

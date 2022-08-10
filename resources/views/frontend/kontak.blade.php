@@ -36,16 +36,15 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-branch-card">
                         <div class="country-flag bg-cover"
-                            style="background-image: url('{{ asset('assets/img/cabang/pinang.jpg') }}')"></div>
+                            style="background-image: url('{{ asset('assets/img/cabang/pusat.jpg') }}')"></div>
                         <div class="content">
                             <h4>Kantor Pusat</h4>
-                            <p class="text-justify">Jl. Raja Haji Fisabilillah, Km. 8 Atas,
-                                Kota Tanjungpinang, Prov. Kepulauan Riau,
-                                Indonesia, 29125
+                            <p class="text-justify">Jl. Kijang Lama Pergudangan Metro Melayu Kota Piring, Kota
+                                Tanjungpinang
                             </p>
                             <p><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282288183338"><i
                                         class="fab fa-whatsapp mr-10"></i>+62 822 8818 3338</a></p>
-                            <p><a href="#"><i class="fas fa-envelope mr-10"></i>sibacargo@gmail.com</a></p>
+                            <p><a href="#"><i class="fas fa-envelope mr-10"></i>siba.admn@gmail.com</a></p>
                             <div class="branch-links">
                                 <a href="{{ route('cabang') }}">semua cabang <i class="fas fa-long-arrow-right"></i></a>
                             </div>
