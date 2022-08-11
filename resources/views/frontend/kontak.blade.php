@@ -43,9 +43,9 @@
                                 Tanjungpinang
                             </p>
                             <p><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282288183338"><i
-                                        class="fab fa-whatsapp mr-10"></i>+62 822 8818 3338</a></p>
+                                        class="fab fa-whatsapp mr-10"></i>+62 822 8818 3338</a> (Galuh)</p>
                             <p><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282385699955"><i
-                                        class="fab fa-whatsapp mr-10"></i>+62 821 7885 9900</a></p>
+                                        class="fab fa-whatsapp mr-10"></i>+62 821 7885 9900</a> (Ella)</p>
                             <p><a href="#"><i class="fas fa-envelope mr-10"></i>siba.admn@gmail.com</a></p>
                             <div class="branch-links">
                                 <a href="{{ route('cabang') }}">semua cabang <i class="fas fa-long-arrow-right"></i></a>
