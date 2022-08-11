@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Postingan extends Model
 {
     use HasFactory;
-    protected $table = 'postingan';
+    protected $table = 'artikel_post';
     protected $guarded = '';
     protected $casts = [
         'tanggal_posting' => 'datetime',
