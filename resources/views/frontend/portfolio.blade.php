@@ -53,9 +53,9 @@
                 </a>
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
-                <a href="{{ asset('assets/img/portfolio/portofolio.jpeg') }}" data-toggle="lightbox"
+                <a href="{{ asset('assets/img/portfolio/pindahan.jpeg') }}" data-toggle="lightbox"
                     data-gallery="example-gallery">
-                    <img src="{{ asset('assets/img/portfolio/portofolio.jpeg') }}" class="img-portfolio" alt="image">
+                    <img src="{{ asset('assets/img/portfolio/pindahan.jpeg') }}" class="img-portfolio" alt="image">
                 </a>
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
@@ -65,9 +65,9 @@
                 </a>
             </div>
             <div class="col-md-6 col-12 col-lg-4 mt-30">
-                <a href="{{ asset('assets/img/portfolio/portofolio2.jpeg') }}" data-toggle="lightbox"
+                <a href="{{ asset('assets/img/portfolio/motor2.jpeg') }}" data-toggle="lightbox"
                     data-gallery="example-gallery">
-                    <img src="{{ asset('assets/img/portfolio/portofolio2.jpeg') }}" class="img-portfolio" alt="image">
+                    <img src="{{ asset('assets/img/portfolio/motor2.jpeg') }}" class="img-portfolio" alt="image">
                 </a>
             </div>
         </div>
