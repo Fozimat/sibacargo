@@ -128,6 +128,14 @@
                                         href="https://api.whatsapp.com/send/?phone=6282288183338">+62 822
                                         8818 3338</a>
                                 </div>
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6282385699955">+62 823 8569 9955</a>
+                                </div>
                             </div>
                             <div class="single-contact-info">
                                 <div class="icon id3">
@@ -167,6 +175,14 @@
                                         target="_blank" style="font-size: 15px;color: #9dacb8"
                                         href="https://api.whatsapp.com/send/?phone=6281270300077">+62 812 7030 0077</a>
                                 </div>
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6282171476767">+62 821 7147 6767</a>
+                                </div>
                             </div>
                             <div class="single-contact-info">
                                 <div class="icon id3">
@@ -202,6 +218,22 @@
                                     <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
                                         target="_blank" style="font-size: 15px;color: #9dacb8"
                                         href="https://api.whatsapp.com/send/?phone=628116945656">+62 811 6945 656</a>
+                                </div>
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6281261863535">+62 812 6186 3535</a>
+                                </div>
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6282287091919">+62 822 8709 1919</a>
                                 </div>
                             </div>
                             <div class="single-contact-info">
@@ -239,6 +271,14 @@
                                         target="_blank" style="font-size: 15px;color: #9dacb8"
                                         href="https://api.whatsapp.com/send/?phone=6281364977393">+62 813 6497 7393</a>
                                 </div>
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6282178859900">+62 821 7885 9900</a>
+                                </div>
                             </div>
                             <div class="single-contact-info">
                                 <div class="icon id3">
@@ -274,6 +314,14 @@
                                     <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
                                         target="_blank" style="font-size: 15px;color: #9dacb8"
                                         href="https://api.whatsapp.com/send/?phone=6285273540077">+62 852 7354 0077</a>
+                                </div>
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=628116664470">+62 811 6664 470</a>
                                 </div>
                             </div>
                             <div class="single-contact-info">
@@ -312,6 +360,14 @@
                                     <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
                                         target="_blank" style="font-size: 15px;color: #9dacb8"
                                         href="https://api.whatsapp.com/send/?phone=6285273540077">+62 852 7354 0077</a>
+                                </div>
+                                <div class="icon id2">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        target="_blank" style="font-size: 15px;color: #9dacb8"
+                                        href="https://api.whatsapp.com/send/?phone=6281270300077">+62 812 7030 0077</a>
                                 </div>
                             </div>
                             <div class="single-contact-info">

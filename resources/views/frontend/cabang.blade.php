@@ -46,6 +46,8 @@
                         <p>Jl. Kijang Lama Pergudangan Metro Melayu Kota Piring, Kota Tanjungpinang</p>
                         <p><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282288183338"><i
                                     class="fab fa-whatsapp mr-10"></i>+62 822 8818 3338</a></p>
+                        <p><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282385699955"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 823 8569 9955</a></p>
                     </div>
                 </div>
             </div>
@@ -59,6 +61,8 @@
                             29125</p>
                         <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"><i
                                     class="fab fa-whatsapp mr-10"></i>+62 812 7030 0077</a></p>
+                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282171476767"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 821 7147 6767</a></p>
                     </div>
                 </div>
             </div>
@@ -71,6 +75,10 @@
                         <p>Komplek Ruko Mega Legenda Blok C3-12 B Batam, Kepulauan Riau Indonesia</p>
                         <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=628116945656"><i
                                     class="fab fa-whatsapp mr-10"></i>+62 811 6945 656</a></p>
+                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281261863535"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 812 6186 3535</a></p>
+                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282287091919"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 822 8709 1919</a></p>
                     </div>
                 </div>
             </div>
@@ -83,6 +91,8 @@
                         <p>Jl. Ambon Ruko No. 6 Tengkerang Timur Kec. Tenayan Raya Kota Pekanbaru</p>
                         <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281364977393"><i
                                     class="fab fa-whatsapp mr-10"></i>+62 813 6497 7393</a></p>
+                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282178859900"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 821 7885 9900</a></p>
                     </div>
                 </div>
             </div>
@@ -95,6 +105,8 @@
                         <p>JL. Lodan Raya Dua Blok A16 No. 2 RT.6/RW.4 Ancol, Kec. Pademangan Jakarta Utara</p>
                         <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6285273540077"><i
                                     class="fab fa-whatsapp mr-10"></i>+62 852 7354 0077</a></p>
+                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=628116664470"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 811 6664 470</a></p>
                     </div>
                 </div>
             </div>
@@ -108,6 +120,8 @@
                         </p>
                         <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6285273540077"><i
                                     class="fab fa-whatsapp mr-10"></i>+62 852 7354 0077</a></p>
+                        <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"><i
+                                    class="fab fa-whatsapp mr-10"></i>+62 812 7030 0077</a></p>
                     </div>
                 </div>
             </div>

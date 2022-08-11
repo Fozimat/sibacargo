@@ -34,53 +34,23 @@
                 </div><span class="my-number">6285273540077</span>
             </a>
 
-            <a class="informasi" href="https://api.whatsapp.com/send/?phone=6281314324477" target="_blank"
+            <a class="informasi" href="https://api.whatsapp.com/send/?phone=6282287091919" target="_blank"
                 title="Chat Whatsapp">
-                <div class="info-avatar"><img src="{{ asset('assets/img/marketing/putri.png') }}" width="100"
+                <div class="info-avatar"><img src="{{ asset('assets/img/marketing/widya.jpeg') }}" width="100"
                         height="50"></div>
                 <div class="info-chat">
-                    <span class="chat-nama">Putri Karuniati</span>
-                    <span class="chat-label">Executive Marketing</span>
-                </div><span class="my-number">6281314324477</span>
-            </a>
-
-            <a class="informasi" href="https://api.whatsapp.com/send/?phone=621276753535" target="_blank"
-                title="Chat Whatsapp">
-                <div class="info-avatar"><img src="{{ asset('assets/img/marketing/yuri.png') }}" width="100"
-                        height="50"></div>
-                <div class="info-chat">
-                    <span class="chat-nama">Yuriza Agustina</span>
-                    <span class="chat-label">Executive Marketing</span>
-                </div><span class="my-number">621276753535</span>
-            </a>
-
-            <a class="informasi" href="https://api.whatsapp.com/send/?phone=6281261863535" target="_blank"
-                title="Chat Whatsapp">
-                <div class="info-avatar"><img src="{{ asset('assets/img/marketing/yunita.png') }}" width="100"
-                        height="50"></div>
-                <div class="info-chat">
-                    <span class="chat-nama">Yunita Mardina</span>
-                    <span class="chat-label">Executive Marketing</span>
-                </div><span class="my-number">6281261863535</span>
-            </a>
-
-            <a class="informasi" href="https://api.whatsapp.com/send/?phone=6281365964343" target="_blank"
-                title="Chat Whatsapp">
-                <div class="info-avatar"><img src="{{ asset('assets/img/marketing/dea.jpeg') }}" width="100"
-                        height="50"></div>
-                <div class="info-chat">
-                    <span class="chat-nama">Nadea Ningsih</span>
-                    <span class="chat-label">Executive Marketing</span>
-                </div><span class="my-number">6281365964343</span>
+                    <span class="chat-nama">Widya Nurul Saputri</span>
+                    <span class="chat-label">Marketing Online</span>
+                </div><span class="my-number">6282287091919</span>
             </a>
 
             <a class="informasi" href="https://api.whatsapp.com/send/?phone=6282178859900" target="_blank"
                 title="Chat Whatsapp">
-                <div class="info-avatar"><img src="{{ asset('assets/img/marketing/risma.jpeg') }}" width="100"
+                <div class="info-avatar"><img src="{{ asset('assets/img/marketing/romero.jpg') }}" width="100"
                         height="50"></div>
                 <div class="info-chat">
-                    <span class="chat-nama">Risma</span>
-                    <span class="chat-label">Executive Marketing</span>
+                    <span class="chat-nama">Romero Hartonio</span>
+                    <span class="chat-label">Coorporate Marketing</span>
                 </div><span class="my-number">6282178859900</span>
             </a>
 
