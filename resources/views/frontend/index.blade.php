@@ -49,8 +49,8 @@
                             </p>
                             <a target="_blank" href="https://sibacargo.co.id/" data-animation-in="fadeInRight"
                                 data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4 animated">Cek Tarif</a>
-                            <a target="_blank" href="https://sibacargo.co.id/" data-animation-in="fadeInRight"
-                                data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4 animated">Lacak Paket</a>
+                            <a href="{{ route('tracking') }}" data-animation-in="fadeInRight" data-delay-in="0.8"
+                                class="theme-btn border-style me-sm-4 mt-4 animated">Lacak Paket</a>
                         </div>
                     </div>
                 </div>
