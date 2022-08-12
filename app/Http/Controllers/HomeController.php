@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Kategori;
+use App\Models\MTC;
 use App\Models\Pesan;
+use App\Models\PesananSibacargo;
 use App\Models\Postingan;
 use Illuminate\Http\Request;
 
@@ -84,6 +86,14 @@ class HomeController extends Controller
     public function tracking()
     {
         return view('frontend.tracking');
+    }
+
+    public function process_tracking(Request $request)
+    {
+        $resi = PesananSibacargo::with(['daerahAsal', 'daerahTujuan', 'kustomer'])->where('resi', $request->resi)->first();
+        $mtc = MTC::with(['status_manifest'])->where('resi', $request->resi)->orderBy('id', 'DESC')->get();
+        // dd($mtc);
+        return view('frontend.tracking', compact(['resi', 'mtc']));
     }
 
     public function karir()

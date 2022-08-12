@@ -44,6 +44,7 @@ Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name(
 
 // Tracking
 Route::get('/tracking', [App\Http\Controllers\HomeController::class, 'tracking'])->name('tracking');
+Route::post('/tracking', [App\Http\Controllers\HomeController::class, 'process_tracking'])->name('tracking.process');
 
 // Kontak
 Route::get('/kontak', [App\Http\Controllers\HomeController::class, 'kontak'])->name('kontak');

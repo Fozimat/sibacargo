@@ -64,9 +64,9 @@
                                     <i class="fas fa-link"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <a target="_blank" onMouseOver="this.style.color='#fd7062'"
-                                        onMouseOut="this.style.color='#9dacb8'" style="font-size: 15px;color: #9dacb8"
-                                        href="https://sibacargo.co.id/">Tracking</a>
+                                    <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
+                                        style="font-size: 15px;color: #9dacb8"
+                                        href="{{ route('tracking') }}">Tracking</a>
                                 </div>
                             </div>
                             <div class="single-contact-info">
