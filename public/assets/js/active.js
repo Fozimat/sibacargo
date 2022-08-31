@@ -261,8 +261,9 @@
         });
 
         if ($('.request-quote-form').length > 0) {
-            NiceSelect.bind(document.getElementById("transfreight"),);
-            NiceSelect.bind(document.getElementById("incoterms"),);
+            NiceSelect.bind(document.getElementById("kota_asal"), { searchable: true, placeholder: "--Pilih--" });
+            NiceSelect.bind(document.getElementById("kota_tujuan"), { searchable: true, placeholder: "--Pilih--" });
+            NiceSelect.bind(document.getElementById("pengiriman"), { searchable: true, placeholder: "--Pilih--" });
         }
 
         $('.side-toggle-menu, .offcanvas-btn').on('click', function () {

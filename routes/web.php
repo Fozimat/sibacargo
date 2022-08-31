@@ -46,6 +46,10 @@ Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name(
 Route::get('/tracking', [App\Http\Controllers\HomeController::class, 'tracking'])->name('tracking');
 Route::post('/tracking', [App\Http\Controllers\HomeController::class, 'process_tracking'])->name('tracking.process');
 
+// Tarif
+Route::get('/tarif', [App\Http\Controllers\HomeController::class, 'tarif'])->name('tarif');
+Route::post('/tarif', [App\Http\Controllers\HomeController::class, 'process_tarif'])->name('tarif.process');
+
 // Kontak
 Route::get('/kontak', [App\Http\Controllers\HomeController::class, 'kontak'])->name('kontak');
 Route::post('/kontak', [App\Http\Controllers\HomeController::class, 'store_pesan'])->name('store.pesan');

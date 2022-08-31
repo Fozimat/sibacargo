@@ -2,11 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\KabupatenKota;
 use App\Models\Kategori;
 use App\Models\MTC;
 use App\Models\Pesan;
 use App\Models\PesananSibacargo;
 use App\Models\Postingan;
+use App\Models\TarifBarang;
+use App\Models\TarifElektronik;
+use App\Models\TarifKendaraan;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -92,8 +96,31 @@ class HomeController extends Controller
     {
         $resi = PesananSibacargo::with(['daerahAsal', 'daerahTujuan', 'kustomer'])->where('resi', $request->resi)->first();
         $mtc = MTC::with(['status_manifest'])->where('resi', $request->resi)->orderBy('id', 'DESC')->get();
-        // dd($mtc);
         return view('frontend.tracking', compact(['resi', 'mtc']));
+    }
+
+    public function tarif()
+    {
+        $kabupaten_kota = KabupatenKota::orderBy('nama', 'ASC')->get();
+        return view('frontend.tarif', compact(['kabupaten_kota']));
+    }
+
+    public function process_tarif(Request $request)
+    {
+        $kabupaten_kota = KabupatenKota::orderBy('nama', 'ASC')->get();
+        $kota_asal = $request->kota_asal;
+        $kota_tujuan = $request->kota_tujuan;
+        $asal = KabupatenKota::where('id', $kota_asal)->pluck('nama');
+        $tujuan = KabupatenKota::where('id', $kota_tujuan)->pluck('nama');
+        $pengiriman = $request->pengiriman;
+        if ($pengiriman == 'kendaraan') {
+            $query = TarifKendaraan::with(['daerahAsal', 'daerahTujuan'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
+        } else if ($pengiriman == 'barang') {
+            $query = TarifBarang::with(['daerahAsal', 'daerahTujuan'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
+        } else if ($pengiriman == 'elektronik') {
+            $query = TarifElektronik::with(['daerahAsal', 'daerahTujuan'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
+        }
+        return view('frontend.tarif', compact(['asal', 'tujuan', 'kabupaten_kota', 'pengiriman', 'query']));
     }
 
     public function karir()

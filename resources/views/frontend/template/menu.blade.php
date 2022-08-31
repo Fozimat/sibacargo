@@ -27,9 +27,18 @@
                             <li>
                                 <a href="{{ route('layanan') }}">Layanan</a>
                             </li>
-                            <li><a href="{{ route('blog') }}">Blog</a></li>
+                            <li>
+                                <a href="#">Info <i class="fas fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Jadwal Kapal</a></li>
+                                    <li><a href="#">Promo</a></li>
+                                    <li><a href="#">Kartu Setia</a></li>
+                                    <li><a href="#">Syarat & Ketentuan</a></li>
+                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                </ul>
+                            </li>
                             <li><a href="{{ route('tracking') }}">Tracking</a></li>
-                            <li><a target="_blank" href="https://sibacargo.co.id/">Tarif</a></li>
+                            <li><a href="{{ route('tarif') }}">Tarif</a></li>
                             <li><a href="{{ route('kontak') }}">Kontak</a></li>
                             <li><a href="{{ route('karir') }}">Karir</a></li>
                         </ul>
@@ -61,9 +70,18 @@
                                     </ul>
                                 </li>
                                 <li><a href="{{ route('layanan') }}">Layanan</a></li>
-                                <li><a href="{{ route('blog') }}">Blog</a></li>
+                                <li>
+                                    <a class="has-arrow" href="#">Info</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Jadwal Kapal</a></li>
+                                        <li><a href="#">Promo</a></li>
+                                        <li><a href="#">Kartu Setia</a></li>
+                                        <li><a href="#">Syarat & Ketentuan</a></li>
+                                        <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="{{ route('tracking') }}">Tracking</a></li>
-                                <li><a target="_blank" href="https://sibacargo.co.id/">Tarif</a></li>
+                                <li><a href="{{ route('tarif') }}">Tarif</a></li>
                                 <li><a href="{{ route('kontak') }}">Kontak</a></li>
                                 <li><a href="{{ route('karir') }}">Karir</a></li>
                             </ul>
