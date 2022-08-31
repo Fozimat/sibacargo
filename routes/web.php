@@ -50,6 +50,10 @@ Route::post('/tracking', [App\Http\Controllers\HomeController::class, 'process_t
 Route::get('/tarif', [App\Http\Controllers\HomeController::class, 'tarif'])->name('tarif');
 Route::post('/tarif', [App\Http\Controllers\HomeController::class, 'process_tarif'])->name('tarif.process');
 
+// Jadwal Kapal
+Route::get('/jadwalkapal', [App\Http\Controllers\HomeController::class, 'jadwal_kapal'])->name('jadwalkapal');
+Route::post('/jadwalkapal', [App\Http\Controllers\HomeController::class, 'process_jadwal_kapal'])->name('jadwalkapal.process');
+
 // Kontak
 Route::get('/kontak', [App\Http\Controllers\HomeController::class, 'kontak'])->name('kontak');
 Route::post('/kontak', [App\Http\Controllers\HomeController::class, 'store_pesan'])->name('store.pesan');

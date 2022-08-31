@@ -2,16 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\KabupatenKota;
-use App\Models\Kategori;
+use App\Models\JadwalKapal;
 use App\Models\MTC;
 use App\Models\Pesan;
-use App\Models\PesananSibacargo;
+use App\Models\Kategori;
 use App\Models\Postingan;
+use App\Models\RuteKapal;
 use App\Models\TarifBarang;
-use App\Models\TarifElektronik;
-use App\Models\TarifKendaraan;
 use Illuminate\Http\Request;
+use App\Models\KabupatenKota;
+use App\Models\TarifKendaraan;
+use App\Models\TarifElektronik;
+use App\Models\PesananSibacargo;
 
 class HomeController extends Controller
 {
@@ -121,6 +123,21 @@ class HomeController extends Controller
             $query = TarifElektronik::with(['daerahAsal', 'daerahTujuan'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
         }
         return view('frontend.tarif', compact(['asal', 'tujuan', 'kabupaten_kota', 'pengiriman', 'query']));
+    }
+
+    public function jadwal_kapal()
+    {
+        $rute_kapal = RuteKapal::orderBy('rute', 'DESC')->orderBy('id', 'ASC')->get();
+        return view('frontend.jadwal-kapal', compact(['rute_kapal']));
+    }
+
+    public function process_jadwal_kapal(Request $request)
+    {
+        $rute_kapal = RuteKapal::orderBy('rute', 'DESC')->orderBy('id', 'ASC')->get();
+        $rute_request = $request->rute;
+        $rute_only = RuteKapal::where('id', $rute_request)->pluck('rute');
+        $jadwal_kapal = JadwalKapal::with(['ruteKapal'])->where('rute_kapal_id', $rute_request)->get();
+        return view('frontend.jadwal-kapal', compact(['rute_only', 'rute_kapal', 'jadwal_kapal', 'rute_request']));
     }
 
     public function karir()
