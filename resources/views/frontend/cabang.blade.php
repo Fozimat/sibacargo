@@ -90,7 +90,7 @@
                         <h4>Pekanbaru</h4>
                         <p>Jl. Ambon Ruko No. 6 Tengkerang Timur Kec. Tenayan Raya Kota Pekanbaru</p>
                         <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281364977393"><i
-                                    class="fab fa-whatsapp mr-10"></i>+62 813 6497 7393</a> (Honesty)</p>
+                                    class="fab fa-whatsapp mr-10"></i>+62 813 6497 7393</a> (Hotline)</p>
                         <p> <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282178859900"><i
                                     class="fab fa-whatsapp mr-10"></i>+62 821 7885 9900</a> (Romero)</p>
                     </div>

@@ -140,6 +140,11 @@ class HomeController extends Controller
         return view('frontend.jadwal-kapal', compact(['rute_only', 'rute_kapal', 'jadwal_kapal', 'rute_request']));
     }
 
+    public function kartu_setia()
+    {
+        return view('frontend.kartu-setia');
+    }
+
     public function karir()
     {
         return view('frontend.karir');

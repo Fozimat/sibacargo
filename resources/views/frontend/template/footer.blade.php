@@ -276,7 +276,7 @@
                                     <a onMouseOver="this.style.color='#fd7062'" onMouseOut="this.style.color='#9dacb8'"
                                         target="_blank" style="font-size: 15px;color: #9dacb8"
                                         href="https://api.whatsapp.com/send/?phone=6281364977393">+62 813 6497 7393</a>
-                                    (Honesty)
+                                    (Hotline)
                                 </div>
                                 <div class="icon id2">
                                     <i class="fab fa-whatsapp"></i>

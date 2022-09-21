@@ -54,6 +54,9 @@ Route::post('/tarif', [App\Http\Controllers\HomeController::class, 'process_tari
 Route::get('/jadwalkapal', [App\Http\Controllers\HomeController::class, 'jadwal_kapal'])->name('jadwalkapal');
 Route::post('/jadwalkapal', [App\Http\Controllers\HomeController::class, 'process_jadwal_kapal'])->name('jadwalkapal.process');
 
+// Kartu Setia
+Route::get('/kartusetia', [App\Http\Controllers\HomeController::class, 'kartu_setia'])->name('kartusetia');
+
 // Kontak
 Route::get('/kontak', [App\Http\Controllers\HomeController::class, 'kontak'])->name('kontak');
 Route::post('/kontak', [App\Http\Controllers\HomeController::class, 'store_pesan'])->name('store.pesan');

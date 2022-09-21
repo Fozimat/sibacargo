@@ -32,7 +32,7 @@
                                 <ul class="sub-menu">
                                     <li><a href="{{ route('jadwalkapal') }}">Jadwal Kapal</a></li>
                                     <li><a href="#">Promo</a></li>
-                                    <li><a href="#">Kartu Setia</a></li>
+                                    <li><a href="{{ route('kartusetia') }}">Kartu Setia</a></li>
                                     <li><a href="#">Syarat & Ketentuan</a></li>
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
                                 </ul>
