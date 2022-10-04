@@ -37,8 +37,7 @@
                     <div class="request-quote-form-wrapper mt-5 mt-xl-0">
                         <h4>Nomor Resi</h4>
                         <div class="request-quote-form">
-                            <form action="{{ route('tracking.process') }}" method="POST">
-                                @csrf
+                            <form action="{{ route('tracking.process') }}" method="GET">
                                 <div class="row d-flex align-item-center">
                                     <div class="col-sm-12 col-12">
                                         <input type="text" name="resi">
