@@ -42,6 +42,9 @@ Route::get('/layanan', [App\Http\Controllers\HomeController::class, 'layanan'])-
 // Blog
 Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('blog');
 
+// faq
+Route::get('/faq', [App\Http\Controllers\HomeController::class, 'faq'])->name('faq');
+
 // Tracking
 Route::get('/tracking', [App\Http\Controllers\HomeController::class, 'tracking'])->name('tracking');
 Route::get('/lacak', [App\Http\Controllers\HomeController::class, 'process_tracking'])->name('tracking.process');

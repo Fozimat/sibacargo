@@ -107,8 +107,8 @@
                         <a target="_blank" href="https://api.whatsapp.com/send/?phone=628116664470"
                             class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
+                        <p class="mt-3">*) Syarat dan ketentuan berlaku</p>
                     </div>
-
                 </div>
             </div>
             <div class="single-price-bar active mb-30">
@@ -119,8 +119,10 @@
                             berani diadu, Siba Cargo tetap berkomitmen untuk memberikan
                             pelayanan terbaiknya.</p>
                         <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282178859900"
-                            class="theme-btn minimal-btn mt-30 mb-30">yuk, kirim sekarang<i
+                            class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
+                        <p class="mt-3">*) Syarat dan ketentuan berlaku</p>
+
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
                         <img class="mySlides2" src="{{ asset('assets/img/promo/okt tnj-kepri.png') }}"
@@ -147,6 +149,7 @@
                         <a href="https://api.whatsapp.com/send/?phone=6281364977393" target="_blank"
                             class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
+                        <p class="mt-3">*) Syarat dan ketentuan berlaku</p>
                     </div>
                 </div>
             </div>
@@ -158,8 +161,10 @@
                             Kamu bisa banget gunakan promo ini untuk kirim barang pindahan, proyek, usaha dengan jauh
                             lebih hemat dari jakarta ke seluruh kota besar di Indonesia</p>
                         <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"
-                            class="theme-btn minimal-btn mt-30 mb-30">yuk, kirim sekarang<i
+                            class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
+                        <p class="mt-3">*) Syarat dan ketentuan berlaku</p>
+
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
                         <img class="mySlides4" src="{{ asset('assets/img/promo/okt jkt-pku.png') }}" style="width:100%">
@@ -433,6 +438,147 @@
     </div>
 </section>
 
+<style>
+    .single-testimonial-card {
+        min-height: 440px;
+    }
+</style>
+
+<section class="testimonial-wrapper section-bg section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-12 mb-40">
+                <div class="block-contents text-center">
+                    <div class="section-title">
+                        <h5>review</h5>
+                        <span>Testimoni</span>
+                        <h2>Customer <span>Feedbacks</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-xl-4 col-12">
+                <div class="single-testimonial-card text-center">
+                    <div class="client-info">
+                        <h4 class="pt-4">Sidik Suandah</h4>
+                    </div>
+                    <div class="feedback">
+                        <p>Pelayanan yang sangat prima dari SIBA
+                            Komunikasi yang sangat baik hingga pembungkusan yang sangat rapi.. kualitas yang paling di
+                            utamakan...
+                            Terimakasih SIBA, senang menggunankan jasa SIBA.. SEMOGA SIBA semakin jaya..
+                            Pelayan bagus harga bersaudara...</p>
+
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4 col-12">
+                <div class="single-testimonial-card text-center">
+                    <div class="client-info">
+                        <h4 class="pt-4">Davinra</h4>
+                    </div>
+                    <div class="feedback">
+                        <p>Keren, selalu ontime. Pelayanan nya juga sangat baik dan ramah. Dan selalu tidak
+                            mengecewakan.</p>
+
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4 col-12">
+                <div class="single-testimonial-card text-center">
+                    <div class="client-info">
+                        <h4 class="pt-4">Ryana Aryuni</h4>
+                    </div>
+                    <div class="feedback">
+                        <p>Sudah beberapa kali kirim barang dari Jakarta pakai siba, alhamdulillah pelayanannya baik</p>
+
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-xl-4 col-12">
+                <div class="single-testimonial-card text-center">
+                    <div class="client-info">
+                        <h4 class="pt-4">Fredika Putra</h4>
+                    </div>
+                    <div class="feedback">
+                        <p>Siba cargo memang pilihan yang tepat untuk pengiriman barang saya. Barang saya sampai dengan
+                            aman, murah pula. Mantap pokoknya 👍👍👍✨</p>
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4 col-12">
+                <div class="single-testimonial-card text-center">
+                    <div class="client-info">
+                        <h4 class="pt-4">Bagus Herdiyanto</h4>
+                    </div>
+                    <div class="feedback">
+                        <p>Luar biasa.. pelayanan ramah dan harga bisa didiskusikan 😁
+                        </p>
+
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4 col-12">
+                <div class="single-testimonial-card text-center">
+                    <div class="client-info">
+                        <h4 class="pt-4">Saiful Arif</h4>
+                    </div>
+                    <div class="feedback">
+                        <p>Pelayanan ramah, fast response, murah, dan aman..</p>
+
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="blog-wrapper section-padding">
     <div class="container">

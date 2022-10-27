@@ -213,6 +213,7 @@
             @if(isset($query))
             <div class="col-lg-12 col-md-12 col-12 mt-2">
                 <strong>Penting:</strong>
+                <p>* Harga sewaktu-waktu dapat berubah</p>
                 <p>* Estimasi berlaku dari keberangkatan Truck/Kapal</p>
                 <p>* Hubungi kami <a href="{{ route('kontak') }}" target='_blank' class="text-primary">Klik
                         Disini</a></p>

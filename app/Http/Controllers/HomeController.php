@@ -145,6 +145,11 @@ class HomeController extends Controller
         return view('frontend.kartu-setia');
     }
 
+    public function faq()
+    {
+        return view('frontend.faq');
+    }
+
     public function karir()
     {
         return view('frontend.karir');
