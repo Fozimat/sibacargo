@@ -16,7 +16,7 @@
 <script src="{{ asset('admin-assets/vendors/sweetalert2/sweetalert2.all.min.js') }}"></script>
 <script src="{{ asset('assets/js/active.js') }}"></script>
 <script type="text/javascript">
-    $(document).on("click",".close-chat",function(){
+  $(document).on("click",".close-chat",function(){
         $("#whatsapp-chat").addClass("hide").removeClass("show")
     }),
     $(document).on("click",".sundakushow-chat, .whatsapp-live-chat", function(){
@@ -24,7 +24,7 @@
     });
 </script>
 <script>
-    @if($flash = session('flash'))
+  @if($flash = session('flash'))
         Swal.fire(
         'Good job!',
         '{{ $flash }}',
@@ -33,7 +33,7 @@
     @endif
 </script>
 <script>
-    var myIndex = 0;
+  var myIndex = 0;
     var myIndex1 = 0;
     var myIndex2 = 0;
     var myIndex3 = 0;
@@ -90,3 +90,4 @@
       setTimeout(carousel4, 3000);
     }
 </script>
+@stack('script')

@@ -35,6 +35,7 @@
                                     <li><a href="{{ route('kartusetia') }}">Kartu Setia</a></li>
                                     <li><a href="#">Syarat & Ketentuan</a></li>
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('volume') }}">Kalkulator Kubikasi</a></li>
                                     <li><a href="{{ route('faq') }}">FAQ</a></li>
                                 </ul>
                             </li>
@@ -79,6 +80,7 @@
                                         <li><a href="#">Kartu Setia</a></li>
                                         <li><a href="#">Syarat & Ketentuan</a></li>
                                         <li><a href="{{ route('blog') }}">Blog</a></li>
+                                        <li><a href="{{ route('volume') }}">Kalkulator Kubikasi</a></li>
                                         <li><a href="{{ route('faq') }}">FAQ</a></li>
                                     </ul>
                                 </li>

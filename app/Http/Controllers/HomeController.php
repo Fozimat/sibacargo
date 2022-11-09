@@ -160,4 +160,9 @@ class HomeController extends Controller
         Pesan::create($request->all());
         return redirect()->route('kontak')->with('flash', 'Pesan berhasil dikirim');
     }
+
+    public function volume()
+    {
+        return view('frontend.volume');
+    }
 }

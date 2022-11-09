@@ -67,6 +67,8 @@ Route::post('/kontak', [App\Http\Controllers\HomeController::class, 'store_pesan
 // Karir
 Route::get('/karir', [App\Http\Controllers\HomeController::class, 'karir'])->name('karir');
 
+// Hitung volume
+Route::get('/volume', [App\Http\Controllers\HomeController::class, 'volume'])->name('volume');
 
 // Admin
 Route::prefix('admin')->middleware(['auth'])->group(function () {

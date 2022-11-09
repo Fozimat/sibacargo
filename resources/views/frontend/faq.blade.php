@@ -136,6 +136,7 @@
                                         <p>* P x L x T : 6.000</p>
                                         <p>Kubikasi</p>
                                         <p>* P x L x T : 1.000.000</p>
+                                        <p>Anda dapat menghitung volume dan kubikasi <a href="#">disini</a></p>
                                     </div>
                                 </div>
                             </div>
