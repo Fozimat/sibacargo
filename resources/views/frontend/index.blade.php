@@ -92,21 +92,18 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides"
-                            src="{{ asset('assets/img/promo/november/promo november bth - kepri.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/desember/des daerah lain.png') }}"
                             style="width:100%">
-                        <img class="mySlides"
-                            src="{{ asset('assets/img/promo/november/promo november bth si sumatra.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/desember/des bth tnj-bth.png') }}"
                             style="width:100%">
-                        <img class="mySlides"
-                            src="{{ asset('assets/img/promo/november/promo november bth si jawa.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/desember/des bth pku-jkt.png') }}"
                             style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo November 11.11 dari Batam ke Seluruh Indonesia</h2>
+                        <h2>Gebyar Promo Akhir Tahun dari Batam ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Emang deh yaaa Siba Cargo paling paham
                             kebutuhan kalian. Coba deh perhatiin, kali ini Siba
-                            Cargo punya Promo November 11.11 dari Batam ke seluruh kota besar di Indonesia
+                            Cargo punya Gebyar Promo Akhir Tahun dari Batam ke Seluruh Indonesia
                             😁😎
                             Kamu bisa banget gunakan promo ini untuk kirim barang pribadimu atau barang jualan ke
                             customer kaliaaan. </p>
@@ -120,7 +117,7 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo November 11.11 Pengiriman dari Tanjungpinang ke Seluruh Indonesia</h2>
+                        <h2>Gebyar Promo Akhir Tahun dari Tanjungpinang ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Dengan tarif kirim yang murah dan
                             berani diadu, Siba Cargo tetap berkomitmen untuk memberikan
                             pelayanan terbaiknya.</p>
@@ -131,14 +128,9 @@
 
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides2"
-                            src="{{ asset('assets/img/promo/november/promo november tpi - kepri.png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/desember/des daerah lain.png') }}"
                             style="width:100%">
-                        <img class="mySlides2"
-                            src="{{ asset('assets/img/promo/november/promo november tpi si jawa.png') }}"
-                            style="width:100%">
-                        <img class="mySlides2"
-                            src="{{ asset('assets/img/promo/november/promo november tpi si sumatra.png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/desember/des tnj pku-jkt.png') }}"
                             style="width:100%">
                     </div>
                 </div>
@@ -146,18 +138,15 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides3"
-                            src="{{ asset('assets/img/promo/november/promo november pku tpi & bth.png') }}"
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/desember/des pku-kepri.png') }}"
                             style="width:100%">
-                        <img class="mySlides3"
-                            src="{{ asset('assets/img/promo/november/promo november pku - kepri.png') }}"
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/desember/des pku tpi-bth.png') }}"
                             style="width:100%">
-                        <img class="mySlides3"
-                            src="{{ asset('assets/img/promo/november/promo november pku - si.png') }}"
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/desember/des daerah lain.png') }}"
                             style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo November 11.11 Pengiriman dari Pekanbaru ke Seluruh Indonesia
+                        <h2>Gebyar Promo Akhir Tahun Pengiriman dari Pekanbaru ke Seluruh Indonesia
                         </h2>
                         <p style="text-align: justify; text-justify: inter-word">Kamu bisa banget gunakan promo ini
                             untuk kirim barang dengan jauh lebih hemat dari Pekanbaru ke seluruh kota besar di
@@ -174,7 +163,7 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo November 11.11 Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
+                        <h2>Gebyar Promo Akhir Tahun Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">
                             Kamu bisa banget gunakan promo ini untuk kirim barang pindahan, proyek, usaha dengan jauh
                             lebih hemat dari jakarta ke seluruh kota besar di Indonesia</p>
@@ -185,14 +174,11 @@
 
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides4"
-                            src="{{ asset('assets/img/promo/november/promo november jkt - kepri.png') }}"
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/desember/des jkt tnj-bth.png') }}"
                             style="width:100%">
-                        <img class="mySlides4"
-                            src="{{ asset('assets/img/promo/november/promo november jkt - si.png') }}"
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/desember/des daerah lain.png') }}"
                             style="width:100%">
-                        <img class="mySlides4"
-                            src="{{ asset('assets/img/promo/november/promo november jkt tpi & bth.png') }}"
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/desember/des jkt tnj-bth (2).png') }}"
                             style="width:100%">
                     </div>
                 </div>
