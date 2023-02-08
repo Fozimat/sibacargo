@@ -92,18 +92,18 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/desember/des daerah lain.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/januari/jan bth - sumatra.png') }}"
                             style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/desember/des bth tnj-bth.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/januari/jan bth tnj - tnj bth.png') }}"
                             style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/desember/des bth pku-jkt.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/januari/jan bth pku - bth jkt.png') }}"
                             style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Gebyar Promo Akhir Tahun dari Batam ke Seluruh Indonesia</h2>
+                        <h2>Promo Spesial Imlek Pengiriman dari Batam ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Emang deh yaaa Siba Cargo paling paham
                             kebutuhan kalian. Coba deh perhatiin, kali ini Siba
-                            Cargo punya Gebyar Promo Akhir Tahun dari Batam ke Seluruh Indonesia
+                            Cargo punya Promo Spesial Imlek dari Batam ke Seluruh Indonesia
                             😁😎
                             Kamu bisa banget gunakan promo ini untuk kirim barang pribadimu atau barang jualan ke
                             customer kaliaaan. </p>
@@ -117,7 +117,7 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Gebyar Promo Akhir Tahun dari Tanjungpinang ke Seluruh Indonesia</h2>
+                        <h2>Promo Spesial Imlek Pengiriman Tanjungpinang ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Dengan tarif kirim yang murah dan
                             berani diadu, Siba Cargo tetap berkomitmen untuk memberikan
                             pelayanan terbaiknya.</p>
@@ -128,9 +128,9 @@
 
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/desember/des daerah lain.png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/januari/jan tnj-pku tnj-jkt.png') }}"
                             style="width:100%">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/desember/des tnj pku-jkt.png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/januari/jan tnj-sumatra.png') }}"
                             style="width:100%">
                     </div>
                 </div>
@@ -138,15 +138,13 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/desember/des pku-kepri.png') }}"
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/januari/jan pku.png') }}"
                             style="width:100%">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/desember/des pku tpi-bth.png') }}"
-                            style="width:100%">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/desember/des daerah lain.png') }}"
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/januari/jan pku tnj - pku bth.png') }}"
                             style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Gebyar Promo Akhir Tahun Pengiriman dari Pekanbaru ke Seluruh Indonesia
+                        <h2>Promo Spesial Imlek Pengiriman dari Pekanbaru ke Seluruh Indonesia
                         </h2>
                         <p style="text-align: justify; text-justify: inter-word">Kamu bisa banget gunakan promo ini
                             untuk kirim barang dengan jauh lebih hemat dari Pekanbaru ke seluruh kota besar di
@@ -163,7 +161,7 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Gebyar Promo Akhir Tahun Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
+                        <h2>Promo Spesial Imlek Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">
                             Kamu bisa banget gunakan promo ini untuk kirim barang pindahan, proyek, usaha dengan jauh
                             lebih hemat dari jakarta ke seluruh kota besar di Indonesia</p>
@@ -174,11 +172,15 @@
 
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/desember/des jkt tnj-bth.png') }}"
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/januari/jan jakarta.png') }}"
                             style="width:100%">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/desember/des daerah lain.png') }}"
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/januari/jan jkt tnj - jkt bth 1.png') }}"
                             style="width:100%">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/desember/des jkt tnj-bth (2).png') }}"
+                        <img class="mySlides4"
+                            src="{{ asset('assets/img/promo/januari/jan jkt tnj - jkt bth 50.png') }}"
+                            style="width:100%">
+                        <img class="mySlides4"
+                            src="{{ asset('assets/img/promo/januari/jan jkt tnj - jkt bth 100.png') }}"
                             style="width:100%">
                     </div>
                 </div>
