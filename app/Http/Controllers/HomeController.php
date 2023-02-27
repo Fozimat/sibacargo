@@ -165,4 +165,9 @@ class HomeController extends Controller
     {
         return view('frontend.volume');
     }
+
+    public function ketentuan()
+    {
+        return view('frontend.ketentuan');
+    }
 }

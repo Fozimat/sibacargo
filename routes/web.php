@@ -70,6 +70,9 @@ Route::get('/karir', [App\Http\Controllers\HomeController::class, 'karir'])->nam
 // Hitung volume
 Route::get('/volume', [App\Http\Controllers\HomeController::class, 'volume'])->name('volume');
 
+// Syarat dan Ketentuan
+Route::get('/ketentuan', [App\Http\Controllers\HomeController::class, 'ketentuan'])->name('ketentuan');
+
 // Admin
 Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');

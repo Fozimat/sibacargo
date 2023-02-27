@@ -33,7 +33,7 @@
                                     <li><a href="{{ route('jadwalkapal') }}">Jadwal Kapal</a></li>
                                     <li><a href="#">Promo</a></li>
                                     <li><a href="{{ route('kartusetia') }}">Kartu Setia</a></li>
-                                    <li><a href="#">Syarat & Ketentuan</a></li>
+                                    <li><a href="{{ route('ketentuan') }}">Syarat & Ketentuan</a></li>
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="{{ route('volume') }}">Kalkulator Kubikasi</a></li>
                                     <li><a href="{{ route('faq') }}">FAQ</a></li>
@@ -78,7 +78,7 @@
                                         <li><a href="{{ route('jadwalkapal') }}">Jadwal Kapal</a></li>
                                         <li><a href="#">Promo</a></li>
                                         <li><a href="#">Kartu Setia</a></li>
-                                        <li><a href="#">Syarat & Ketentuan</a></li>
+                                        <li><a href="{{ route('ketentuan') }}">Syarat & Ketentuan</a></li>
                                         <li><a href="{{ route('blog') }}">Blog</a></li>
                                         <li><a href="{{ route('volume') }}">Kalkulator Kubikasi</a></li>
                                         <li><a href="{{ route('faq') }}">FAQ</a></li>
