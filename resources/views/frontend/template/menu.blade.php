@@ -34,7 +34,8 @@
                                     <li><a href="#">Promo</a></li>
                                     <li><a href="{{ route('kartusetia') }}">Kartu Setia</a></li>
                                     <li><a href="{{ route('ketentuan') }}">Syarat & Ketentuan</a></li>
-                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="https://kirimmurah.co.id" target="_blank">Blog 1</a></li>
+                                    <li><a href="https://blog.sibalogistik.com" target="_blank">Blog 2</a></li>
                                     <li><a href="{{ route('volume') }}">Kalkulator Kubikasi</a></li>
                                     <li><a href="{{ route('faq') }}">FAQ</a></li>
                                 </ul>
@@ -79,7 +80,8 @@
                                         <li><a href="#">Promo</a></li>
                                         <li><a href="#">Kartu Setia</a></li>
                                         <li><a href="{{ route('ketentuan') }}">Syarat & Ketentuan</a></li>
-                                        <li><a href="{{ route('blog') }}">Blog</a></li>
+                                        <li><a href="https://kirimmurah.co.id" target="_blank">Blog 1</a></li>
+                                        <li><a href="https://blog.sibalogistik.com" target="_blank">Blog 2</a></li>
                                         <li><a href="{{ route('volume') }}">Kalkulator Kubikasi</a></li>
                                         <li><a href="{{ route('faq') }}">FAQ</a></li>
                                     </ul>
