@@ -92,20 +92,16 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/februari/bth-tnj tnj-bth.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/maret/maret bth jawa.png') }}"
                             style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/februari/bth-sumatra.png') }}"
-                            style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/februari/bth-pku bth-jkt.png') }}"
-                            style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/februari/bth-jawa.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/maret/maret bth sumatra.png') }}"
                             style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo Spesial Valentine Pengiriman dari Batam ke Seluruh Indonesia</h2>
+                        <h2>Promo Sambut Ramadhan Pengiriman dari Batam ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Emang deh yaaa Siba Cargo paling paham
                             kebutuhan kalian. Coba deh perhatiin, kali ini Siba
-                            Cargo punya Promo Spesial Valentine dari Batam ke Seluruh Indonesia
+                            Cargo punya Promo Sambut Ramadhan dari Batam ke Seluruh Indonesia
                             😁😎
                             Kamu bisa banget gunakan promo ini untuk kirim barang pribadimu atau barang jualan ke
                             customer kaliaaan. </p>
@@ -119,7 +115,7 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo Spesial Valentine Pengiriman Tanjungpinang ke Seluruh Indonesia</h2>
+                        <h2>Promo Sambut Ramadhan Pengiriman Tanjungpinang ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Dengan tarif kirim yang murah dan
                             berani diadu, Siba Cargo tetap berkomitmen untuk memberikan
                             pelayanan terbaiknya.</p>
@@ -130,13 +126,7 @@
 
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/februari/tnj-pku tnj-jkt.png') }}"
-                            style="width:100%">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/februari/tnj-sumatra.png') }}"
-                            style=" width:100%">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/februari/tnj-jawa.png') }}"
-                            style="width:100%">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/februari/bth-tnj tnj-bth.png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/maret/maret tnj si.png') }}"
                             style="width:100%">
                     </div>
                 </div>
@@ -144,13 +134,13 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/februari/pku-kepri.png') }}"
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/maret/maret pku tnj - pku bth.png') }}"
                             style="width:100%">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/februari/pku-tnj pku-bth.png') }}"
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/maret/maret pku si.png') }}"
                             style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo Spesial Valentine Pengiriman dari Pekanbaru ke Seluruh Indonesia
+                        <h2>Promo Sambut Ramadhan Pengiriman dari Pekanbaru ke Seluruh Indonesia
                         </h2>
                         <p style="text-align: justify; text-justify: inter-word">Kamu bisa banget gunakan promo ini
                             untuk kirim barang dengan jauh lebih hemat dari Pekanbaru ke seluruh kota besar di
@@ -167,7 +157,7 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo Spesial Valentine Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
+                        <h2>Promo Sambut Ramadhan Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">
                             Kamu bisa banget gunakan promo ini untuk kirim barang pindahan, proyek, usaha dengan jauh
                             lebih hemat dari jakarta ke seluruh kota besar di Indonesia</p>
@@ -178,13 +168,16 @@
 
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/februari/jkt-kepri.png') }}"
+                        <img class="mySlides4"
+                            src="{{ asset('assets/img/promo/maret/maret jkt tnj - jkt bth(1).png') }}"
                             style="width:100%">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/februari/jkt-tnj jkt-bth.png') }}"
+                        <img class="mySlides4"
+                            src="{{ asset('assets/img/promo/maret/maret jkt tnj - jkt bth(50).png') }}"
                             style="width:100%">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/februari/jkt-tnj jkt-bth 50kg.png') }}"
+                        <img class="mySlides4"
+                            src="{{ asset('assets/img/promo/maret/maret jkt tnj - jkt bth(100).png') }}"
                             style="width:100%">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/februari/jkt-tnj jkt-bth 100kg.png') }}"
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/maret/maret jkt si.png') }}"
                             style="width:100%">
                     </div>
                 </div>
