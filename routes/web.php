@@ -73,6 +73,9 @@ Route::get('/volume', [App\Http\Controllers\HomeController::class, 'volume'])->n
 // Syarat dan Ketentuan
 Route::get('/ketentuan', [App\Http\Controllers\HomeController::class, 'ketentuan'])->name('ketentuan');
 
+// Get Harga
+Route::post('/getHarga/{kota_asal}/{kota_tujuan}/{pengiriman}', [App\Http\Controllers\HomeController::class, 'getHarga'])->name('getHarga');
+
 // Admin
 Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');

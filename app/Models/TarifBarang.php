@@ -21,4 +21,9 @@ class TarifBarang extends Model
     {
         return $this->belongsTo(KabupatenKota::class, 'daerah_tujuan');
     }
+
+    public function servis()
+    {
+        return $this->belongsTo(Servis::class, 'servis_id', 'id');
+    }
 }

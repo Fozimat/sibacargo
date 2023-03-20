@@ -29,8 +29,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $postingan_terbaru = Postingan::with(['kategori'])->orderBy('tanggal_posting', 'DESC')->take(6)->get();
-        return view('frontend.index', compact(['postingan_terbaru']));
+        $kabupaten_kota = KabupatenKota::orderBy('nama', 'ASC')->get();
+        return view('frontend.index', compact(['kabupaten_kota']));
     }
 
     public function sejarah_perusahaan()
@@ -116,13 +116,25 @@ class HomeController extends Controller
         $tujuan = KabupatenKota::where('id', $kota_tujuan)->pluck('nama');
         $pengiriman = $request->pengiriman;
         if ($pengiriman == 'kendaraan') {
-            $query = TarifKendaraan::with(['daerahAsal', 'daerahTujuan'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
+            $query = TarifKendaraan::with(['daerahAsal', 'daerahTujuan', 'servis'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
         } else if ($pengiriman == 'barang') {
-            $query = TarifBarang::with(['daerahAsal', 'daerahTujuan'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
+            $query = TarifBarang::with(['daerahAsal', 'daerahTujuan', 'servis'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
         } else if ($pengiriman == 'elektronik') {
-            $query = TarifElektronik::with(['daerahAsal', 'daerahTujuan'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
+            $query = TarifElektronik::with(['daerahAsal', 'daerahTujuan', 'servis'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
         }
         return view('frontend.tarif', compact(['asal', 'tujuan', 'kabupaten_kota', 'pengiriman', 'query']));
+    }
+
+    public function getHarga($kota_asal, $kota_tujuan, $pengiriman)
+    {
+        if ($pengiriman == 'kendaraan') {
+            $query = TarifKendaraan::with(['daerahAsal', 'daerahTujuan', 'servis'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
+        } else if ($pengiriman == 'barang') {
+            $query = TarifBarang::with(['daerahAsal', 'daerahTujuan', 'servis'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->orderBy('berat_minimal', 'ASC')->get();
+        } else if ($pengiriman == 'elektronik') {
+            $query = TarifElektronik::with(['daerahAsal', 'daerahTujuan', 'servis'])->where('daerah_asal', $kota_asal)->where('daerah_tujuan', $kota_tujuan)->get();
+        }
+        return response()->json($query);
     }
 
     public function jadwal_kapal()

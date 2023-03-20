@@ -21,4 +21,9 @@ class TarifElektronik extends Model
     {
         return $this->belongsTo(KabupatenKota::class, 'daerah_tujuan', 'id');
     }
+
+    public function servis()
+    {
+        return $this->belongsTo(Servis::class, 'servis', 'id');
+    }
 }

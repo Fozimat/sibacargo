@@ -26,4 +26,9 @@ class TarifKendaraan extends Model
     {
         return $this->belongsTo(Kendaraan::class);
     }
+
+    public function servis()
+    {
+        return $this->belongsTo(Servis::class, 'servis_id', 'id');
+    }
 }

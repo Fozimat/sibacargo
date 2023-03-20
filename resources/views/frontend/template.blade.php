@@ -429,12 +429,13 @@
     Jasa Pengiriman Murah dari Manokwari ke Jakarta,
     Siba Cargo Jastip Seluruh Indonesia'>
     <!-- ======== Page title ============ -->
+    @yield('csrf-token')
     <title>@yield('title')</title>
     {{-- style --}}
     @include('frontend.template.style')
 </head>
 
-<body class="body-wrapper" oncontextmenu="return false;">
+<body class="body-wrapper">
     <!-- preloader -->
     @include('frontend.template.preloader')
 
