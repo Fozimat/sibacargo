@@ -1,72 +1,15 @@
 @extends('frontend.template')
+
 @section('title', 'SIBA CARGO - Jasa Ekspedisi Murah')
 @section('content')
 <section class="hero-wrapper hero-1">
     <div class="hero-slider-active transland-dots">
         <div class="single-slide">
-            <div class="slide-bg bg-cover wow zoomIn" style="background-image: url('assets/img/home/slider_baru1.png')">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-xxl-6 col-lg-8 col-sm-10">
-                        <div class="hero-contents pe-lg-3 text-white">
-                            <h1 class="fs-lg animated" data-animation-in="fadeInRight" data-delay-in="0.2">
-                                Makin Banyak <span>Makin Murah</span>
-                            </h1>
-                            <p class="pe-lg-5 mb-4" data-animation-in="fadeInRight" data-delay-in="0.5">
-                                Barang yang ingin dikirim lebih banyak dan dalam jumlah yang besar, Dapatkan Harga
-                                Spesial dari <strong>SIBA</strong>
-                            </p>
-                            <a href="{{ route('kontak') }}" data-animation-in="fadeInRight" data-delay-in="0.8"
-                                class="theme-btn border-style me-sm-4 mt-4">Hubungi Kami</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slide-pop-video-box-wrapper d-flex text-white align-items-center"
-                data-animation-in="fadeInRight" data-delay-in="1s">
-                <div class="text col-6">
-                    <h6>Cargo Logistics Dengan Layanan Pengiriman Terbaik</h6>
-                </div>
-                <div class="video-wrapper bg-overlay bg-cover bg-center col-6 justify-content-center align-items-center"
-                    style="background-image: url('assets/img/faq-video.jpg')">
-                    <a href="https://www.youtube.com/watch?v=EXZqZ6xu5ck" class="popup-video play-video"><i
-                            class="fas fa-play"></i></a>
-                </div>
+            <div class="slide-bg bg-cover wow zoomIn"
+                style="background-image: url('assets/img/home/landing-maret.png'); height: 100%;">
             </div>
         </div>
-        <div class="single-slide">
-            <div class="slide-bg bg-cover" style="background-image: url('assets/img/home/slider_baru2.png')"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-xxl-6 col-lg-8 col-sm-10">
-                        <div class="hero-contents pe-lg-3 text-white">
-                            <h1 class="fs-lg animated" data-animation-in="fadeInRight" data-delay-in="0.2">
-                                Ekspedisi Murah <span>dan Berkualitas</span>
-                            </h1>
-                            <p class="pe-lg-5 mb-4 animated" data-animation-in="fadeInRight" data-delay-in="0.5">
-                                Cari yang selalu bisa diandalkan? <strong>SIBA CARGO</strong> maju paling depan.
-                            </p>
-                            <a target="_blank" href="https://sibacargo.co.id/" data-animation-in="fadeInRight"
-                                data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4 animated">Cek Tarif</a>
-                            <a href="{{ route('tracking') }}" data-animation-in="fadeInRight" data-delay-in="0.8"
-                                class="theme-btn border-style me-sm-4 mt-4 animated">Lacak Paket</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slide-pop-video-box-wrapper d-flex text-white align-items-center"
-                data-animation-in="fadeInRight" data-delay-in="1s">
-                <div class="text col-6">
-                    <h6>Cargo Logistics Dengan Layanan Pengiriman Terbaik</h6>
-                </div>
-                <div class="video-wrapper bg-overlay bg-cover bg-center col-6 justify-content-center align-items-center"
-                    style="background-image: url('assets/img/faq-video.jpg')">
-                    <a href="https://www.youtube.com/watch?v=EXZqZ6xu5ck" class="popup-video play-video"><i
-                            class="fas fa-play"></i></a>
-                </div>
-            </div>
-        </div>
+
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44px" height="44px" id="circle"
@@ -76,8 +19,46 @@
     </svg>
 </section>
 
+<div class="services-bar-wrapper section-padding" id="tracking">
+    <div class="container">
+        <div class="block-contents pt-20">
+            <div class="section-title text-center ">
+                <h5>Tracking</h5>
+                <span>Siba Cargo</span>
+                <h2>Lacak <span>Barang Anda</span></h2>
+            </div>
+        </div>
+        <div class="our-services-box" style="margin-top: 50px;">
+            <div class="row p-3 align-items-center">
+                <div class="col-sm-12 col-12 border-right col-md-12 col-xl-12">
+                    @include('frontend.template.ajax-tracking')
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<section class="portfolio section-padding ">
+<div class="services-bar-wrapper" id="tarif">
+    <div class="container">
+        <div class="block-contents pt-20">
+            <div class="section-title text-center">
+                <h5>Tarif</h5>
+                <span>Siba Cargo</span>
+                <h2>Cek Tarif<span> Pengiriman</span></h2>
+            </div>
+        </div>
+
+        <div class="our-services-box">
+            <div class="row p-3 align-items-center">
+                <div class="col-sm-12 col-12 border-right col-md-12 col-xl-12">
+                    @include('frontend.template.ajax-tarif')
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="portfolio section-padding">
     <div class="container">
         <div class="col-12 col-lg-12 mb-40">
             <div class="block-contents text-center">
@@ -92,20 +73,25 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/maret/maret bth jawa.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/april/promo april bth jawa.png') }}"
                             style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/maret/maret bth sumatra.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/april/promo april si.png') }}"
+                            style="width:100%">
+                        <img class="mySlides" src="{{ asset('assets/img/promo/april/promo april bth sumatra.png') }}"
+                            style="width:100%">
+                        <img class="mySlides" src="{{ asset('assets/img/promo/april/promo april min 20 kg.png') }}"
                             style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo Sambut Ramadhan Pengiriman dari Batam ke Seluruh Indonesia</h2>
-                        <p style="text-align: justify; text-justify: inter-word">Emang deh yaaa Siba Cargo paling paham
+                        <h2>Promo April Spesial THR Pengiriman dari Batam ke Seluruh Indonesia</h2>
+                        <p style="text-align: justify; text-justify: inter-word">Emang deh yaaa Siba Cargo paling
+                            paham
                             kebutuhan kalian. Coba deh perhatiin, kali ini Siba
-                            Cargo punya Promo Sambut Ramadhan dari Batam ke Seluruh Indonesia
+                            Cargo punya Promo April Spesial THR dari Batam ke Seluruh Indonesia
                             😁😎
                             Kamu bisa banget gunakan promo ini untuk kirim barang pribadimu atau barang jualan ke
                             customer kaliaaan. </p>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=628116664470"
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=628116945656"
                             class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
                         <p class="mt-3">*) Syarat dan ketentuan berlaku</p>
@@ -115,52 +101,10 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo Sambut Ramadhan Pengiriman Tanjungpinang ke Seluruh Indonesia</h2>
+                        <h2>Promo April Spesial THR Pengiriman Tanjungpinang ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Dengan tarif kirim yang murah dan
                             berani diadu, Siba Cargo tetap berkomitmen untuk memberikan
                             pelayanan terbaiknya.</p>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282178859900"
-                            class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
-                                class="fal fa-long-arrow-right"></i></a>
-                        <p class="mt-3">*) Syarat dan ketentuan berlaku</p>
-
-                    </div>
-                    <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/maret/maret tnj si.png') }}"
-                            style="width:100%">
-                    </div>
-                </div>
-            </div>
-            <div class="single-price-bar active mb-30">
-                <div class="row">
-                    <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/maret/maret pku tnj - pku bth.png') }}"
-                            style="width:100%">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/maret/maret pku si.png') }}"
-                            style="width:100%">
-                    </div>
-                    <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo Sambut Ramadhan Pengiriman dari Pekanbaru ke Seluruh Indonesia
-                        </h2>
-                        <p style="text-align: justify; text-justify: inter-word">Kamu bisa banget gunakan promo ini
-                            untuk kirim barang dengan jauh lebih hemat dari Pekanbaru ke seluruh kota besar di
-                            Indonesia, apalagi kamu
-                            bisa banget dapat
-                            tambahan diskon lhooo 😁😁😁</p>
-                        <a href="https://api.whatsapp.com/send/?phone=6281364977393" target="_blank"
-                            class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
-                                class="fal fa-long-arrow-right"></i></a>
-                        <p class="mt-3">*) Syarat dan ketentuan berlaku</p>
-                    </div>
-                </div>
-            </div>
-            <div class="single-price-bar active mb-30">
-                <div class="row">
-                    <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo Sambut Ramadhan Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
-                        <p style="text-align: justify; text-justify: inter-word">
-                            Kamu bisa banget gunakan promo ini untuk kirim barang pindahan, proyek, usaha dengan jauh
-                            lebih hemat dari jakarta ke seluruh kota besar di Indonesia</p>
                         <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281270300077"
                             class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
@@ -168,16 +112,62 @@
 
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides4"
-                            src="{{ asset('assets/img/promo/maret/maret jkt tnj - jkt bth(1).png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/april/promo april tnj sumatra.png') }}"
                             style="width:100%">
-                        <img class="mySlides4"
-                            src="{{ asset('assets/img/promo/maret/maret jkt tnj - jkt bth(50).png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/april/promo april si.png') }}"
                             style="width:100%">
-                        <img class="mySlides4"
-                            src="{{ asset('assets/img/promo/maret/maret jkt tnj - jkt bth(100).png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/april/promo april tnj jawa.png') }}"
                             style="width:100%">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/maret/maret jkt si.png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/april/promo april min 20 kg.png') }}"
+                            style="width:100%">
+                    </div>
+                </div>
+            </div>
+            <div class="single-price-bar active mb-30">
+                <div class="row">
+                    <div class="col-md-6 col-12 col-lg-4">
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/april/promo april pku bth - tnj.png') }}"
+                            style="width:100%">
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/april/promo april si.png') }}"
+                            style="width:100%">
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/april/promo april min 20 kg.png') }}"
+                            style="width:100%">
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-8">
+                        <h2>Promo April Spesial THR Pengiriman dari Pekanbaru ke Seluruh Indonesia
+                        </h2>
+                        <p style="text-align: justify; text-justify: inter-word">Kamu bisa banget gunakan promo ini
+                            untuk kirim barang dengan jauh lebih hemat dari Pekanbaru ke seluruh kota besar di
+                            Indonesia, apalagi kamu
+                            bisa banget dapat
+                            tambahan diskon lhooo 😁😁😁</p>
+                        <a href="https://api.whatsapp.com/send/?phone=6282178859900" target="_blank"
+                            class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
+                                class="fal fa-long-arrow-right"></i></a>
+                        <p class="mt-3">*) Syarat dan ketentuan berlaku</p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-price-bar active mb-30">
+                <div class="row">
+                    <div class="col-md-6 col-12 col-lg-8">
+                        <h2>Promo April Spesial THR Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
+                        <p style="text-align: justify; text-justify: inter-word">
+                            Kamu bisa banget gunakan promo ini untuk kirim barang pindahan, proyek, usaha dengan
+                            jauh
+                            lebih hemat dari jakarta ke seluruh kota besar di Indonesia</p>
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=6285273540077"
+                            class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
+                                class="fal fa-long-arrow-right"></i></a>
+                        <p class="mt-3">*) Syarat dan ketentuan berlaku</p>
+
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-4">
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/april/promo jakarta bth - tnj.png') }}"
+                            style="width:100%">
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/april/promo april si.png') }}"
+                            style="width:100%">
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/april/promo april min 20 kg.png') }}"
                             style="width:100%">
                     </div>
                 </div>
@@ -214,7 +204,8 @@
                     </p>
                     <p style="text-align: justify; text-justify: inter-word">
                         <span style="color: #0077c3; font-weight: 900">SIBA CARGO </span>terdiri dari
-                        sumber daya manusia yang berpengalaman dan konsisten di bidang jasa pengiriman/ expedisi cargo
+                        sumber daya manusia yang berpengalaman dan konsisten di bidang jasa pengiriman/ expedisi
+                        cargo
                         dengan dukungan tenaga yang profesional dan terlatih menjadikan barang kiriman anda tiba di
                         tujuan dengan cepat dan aman.
                     </p>
@@ -475,7 +466,8 @@
                     </div>
                     <div class="feedback">
                         <p>Pelayanan yang sangat prima dari SIBA
-                            Komunikasi yang sangat baik hingga pembungkusan yang sangat rapi.. kualitas yang paling di
+                            Komunikasi yang sangat baik hingga pembungkusan yang sangat rapi.. kualitas yang paling
+                            di
                             utamakan...
                             Terimakasih SIBA, senang menggunankan jasa SIBA.. SEMOGA SIBA semakin jaya..
                             Pelayan bagus harga bersaudara...</p>
@@ -515,7 +507,8 @@
                         <h4 class="pt-4">Ryana Aryuni</h4>
                     </div>
                     <div class="feedback">
-                        <p>Sudah beberapa kali kirim barang dari Jakarta pakai siba, alhamdulillah pelayanannya baik</p>
+                        <p>Sudah beberapa kali kirim barang dari Jakarta pakai siba, alhamdulillah pelayanannya baik
+                        </p>
 
                         <div class="star">
                             <span class="fas fa-star"></span>
@@ -536,7 +529,8 @@
                         <h4 class="pt-4">Fredika Putra</h4>
                     </div>
                     <div class="feedback">
-                        <p>Siba cargo memang pilihan yang tepat untuk pengiriman barang saya. Barang saya sampai dengan
+                        <p>Siba cargo memang pilihan yang tepat untuk pengiriman barang saya. Barang saya sampai
+                            dengan
                             aman, murah pula. Mantap pokoknya 👍👍👍✨</p>
                         <div class="star">
                             <span class="fas fa-star"></span>
@@ -589,7 +583,7 @@
     </div>
 </section>
 
-<section class="blog-wrapper section-padding">
+{{-- <section class="blog-wrapper section-padding">
     <div class="container">
         <div class="row">
             <div class="block-contents">
@@ -630,7 +624,7 @@
             @endforeach
         </div>
     </div>
-</section>
+</section> --}}
 
 <style>
     .bg_content {
