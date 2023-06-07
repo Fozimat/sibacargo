@@ -73,24 +73,24 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/april/promo april bth jawa.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/mei/mei seluruh indonesia.png') }}"
                             style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/april/promo april si.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/mei/mei origin bth.png') }}"
                             style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/april/promo april bth sumatra.png') }}"
+                        <img class="mySlides" src="{{ asset('assets/img/promo/mei/mei origin bth sumatra.png') }}"
                             style="width:100%">
-                        <img class="mySlides" src="{{ asset('assets/img/promo/april/promo april min 20 kg.png') }}"
+                        <img class="mySlides"
+                            src="{{ asset('assets/img/promo/mei/mei origin bth jawa kalimantan sulawesi area.png') }}"
                             style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo April Spesial THR Pengiriman dari Batam ke Seluruh Indonesia</h2>
+                        <h2>Promo Mei Spesial Diskon Ongkir Pengiriman dari Batam ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Emang deh yaaa Siba Cargo paling
                             paham
                             kebutuhan kalian. Coba deh perhatiin, kali ini Siba
-                            Cargo punya Promo April Spesial THR dari Batam ke Seluruh Indonesia
+                            Cargo punya Promo Mei Spesial Diskon Ongkir dari Batam ke Seluruh Indonesia
                             😁😎
-                            Kamu bisa banget gunakan promo ini untuk kirim barang pribadimu atau barang jualan ke
-                            customer kaliaaan. </p>
+                            Kamu bisa banget gunakan promo ini untuk kirim barang pribadimu atau barang pindahan.</p>
                         <a target="_blank" href="https://api.whatsapp.com/send/?phone=628116945656"
                             class="theme-btn minimal-btn mt-30">yuk, kirim sekarang<i
                                 class="fal fa-long-arrow-right"></i></a>
@@ -101,7 +101,7 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo April Spesial THR Pengiriman Tanjungpinang ke Seluruh Indonesia</h2>
+                        <h2>Promo Mei Spesial Diskon Ongkir Pengiriman Tanjungpinang ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">Dengan tarif kirim yang murah dan
                             berani diadu, Siba Cargo tetap berkomitmen untuk memberikan
                             pelayanan terbaiknya.</p>
@@ -112,13 +112,14 @@
 
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/april/promo april tnj sumatra.png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/mei/mei origin tnj.png') }}"
                             style="width:100%">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/april/promo april si.png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/mei/mei seluruh indonesia.png') }}"
                             style="width:100%">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/april/promo april tnj jawa.png') }}"
+                        <img class="mySlides2" src="{{ asset('assets/img/promo/mei/mei origin tnj sumatra.png') }}"
                             style="width:100%">
-                        <img class="mySlides2" src="{{ asset('assets/img/promo/april/promo april min 20 kg.png') }}"
+                        <img class="mySlides2"
+                            src="{{ asset('assets/img/promo/mei/mei origin tnj jawa kalimantan sulawesi area.png') }}"
                             style="width:100%">
                     </div>
                 </div>
@@ -126,15 +127,18 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/april/promo april pku bth - tnj.png') }}"
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/mei/mei origin pku.png') }}"
                             style="width:100%">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/april/promo april si.png') }}"
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/mei/mei origin pku sumatra.png') }}"
                             style="width:100%">
-                        <img class="mySlides3" src="{{ asset('assets/img/promo/april/promo april min 20 kg.png') }}"
+                        <img class="mySlides3"
+                            src="{{ asset('assets/img/promo/mei/mei origin pku jawa kalimantan sulawasi.png') }}"
+                            style="width:100%">
+                        <img class="mySlides3" src="{{ asset('assets/img/promo/mei/mei seluruh indonesia.png') }}"
                             style="width:100%">
                     </div>
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo April Spesial THR Pengiriman dari Pekanbaru ke Seluruh Indonesia
+                        <h2>Promo Mei Spesial Diskon Ongkir Pengiriman dari Pekanbaru ke Seluruh Indonesia
                         </h2>
                         <p style="text-align: justify; text-justify: inter-word">Kamu bisa banget gunakan promo ini
                             untuk kirim barang dengan jauh lebih hemat dari Pekanbaru ke seluruh kota besar di
@@ -151,7 +155,7 @@
             <div class="single-price-bar active mb-30">
                 <div class="row">
                     <div class="col-md-6 col-12 col-lg-8">
-                        <h2>Promo April Spesial THR Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
+                        <h2>Promo Mei Spesial Diskon Ongkir Pengiriman dari Jakarta ke Seluruh Indonesia</h2>
                         <p style="text-align: justify; text-justify: inter-word">
                             Kamu bisa banget gunakan promo ini untuk kirim barang pindahan, proyek, usaha dengan
                             jauh
@@ -163,11 +167,14 @@
 
                     </div>
                     <div class="col-md-6 col-12 col-lg-4">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/april/promo jakarta bth - tnj.png') }}"
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/mei/mei seluruh indonesia.png') }}"
                             style="width:100%">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/april/promo april si.png') }}"
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/mei/mei origin jkt.png') }}"
                             style="width:100%">
-                        <img class="mySlides4" src="{{ asset('assets/img/promo/april/promo april min 20 kg.png') }}"
+                        <img class="mySlides4" src="{{ asset('assets/img/promo/mei/mei origin jkt sumatra.png') }}"
+                            style="width:100%">
+                        <img class="mySlides4"
+                            src="{{ asset('assets/img/promo/mei/mei origin jkt jawa kalimantan sulawesi.png') }}"
                             style="width:100%">
                     </div>
                 </div>
