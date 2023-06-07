@@ -12,6 +12,11 @@ class PesananSibacargo extends Model
     protected $guarded = [''];
     protected $dates   = ['waktu_pesan', 'tanggal_masuk'];
 
+    protected $casts = [
+        'waktu_pesan'  => 'date:d-m-Y',
+        'tanggal_masuk' => 'date:d-m-Y',
+    ];
+
     public function daerahAsal()
     {
         return $this->belongsTo(KabupatenKota::class, 'daerah_asal', 'id');
