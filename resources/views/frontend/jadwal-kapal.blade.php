@@ -1,5 +1,125 @@
 @extends('frontend.template')
 @section('title', 'Jadwal Kapal - Siba Cargo')
+@section('csrf-token')
+<meta name="csrf-token" content="{{ csrf_token() }}">
+@endsection
+@push('script')
+<script>
+    $(document).ready(function() {
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+        $('#cekjadwal').submit(function(e) {
+            e.preventDefault();
+            var rute = $('#rute').val();
+            console.log(rute);
+            $.ajax({
+                type: 'post',
+                url: '/getJadwalKapal/'+rute,
+                dataType: 'json',
+                data: {
+                    rute: rute,
+                },
+                success: function(data) {
+                    console.log(data);
+                    if(data.jadwal_kapal !== null) {
+                        var content = '';
+                        content = `
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th>Resi</th>
+                                            <th>Tanggal Pesanan</th>
+                                            <th>Kota Pengiriman</th>
+                                            <th>Kota Tujuan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>${data.pesanan.resi}</th>
+                                            <td>${data.pesanan.waktu_pesan}</td>
+                                            <td>${data.pesanan.daerah_asal.nama}</td>
+                                            <td>${data.pesanan.daerah_tujuan.nama}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table mt-5">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th>Pengirim</th>
+                                            <th>Penerima</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>${data.pesanan.kustomer.nama}</strong></td>
+                                            <td><strong>${data.pesanan.nama_penerima}</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>${data.pesanan.kustomer.alamat_detail}</td>
+                                            <td>${data.pesanan.alamat_detail_tujuan}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table mt-5">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th colspan="2">Perjalanan Paket ${data.pesanan.resi}</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        `;
+                                        for(i = 0; i < data.mtc.length; i++) {
+                                            content += `
+                                            <tr>
+                                                <td style="width: 180px;"><strong>${data.mtc[i].tanggal_update}
+                                                </td>
+                                                <td><strong>${data.mtc[i].status_manifest.nama}</strong></strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>${data.mtc[i].status_manifest.keterangan}
+                                                    <strong>${data.mtc[i].penerima != null ? data.mtc[i].penerima : ''}</strong>
+                                                    <strong>${data.mtc[i].tanggal_jalan != null ? data.mtc[i].tanggal_jalan : ''}</strong>
+                                                    <strong>${data.mtc[i].estimasi != null ? data.mtc[i].estimasi : ''}</strong>
+                                                    <strong>${data.mtc[i].asal_tujuan != null ? data.mtc[i].asal_tujuan : ''}</strong> 
+                                                    ${data.mtc[i].penerima != null ? '<a href="#" target="_blank">(Lihat Bukti Pengiriman)</a>' : '' }
+                                                </td>
+                                            </tr>
+                                            `;
+                                        }
+                                    content += `
+                                            </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    `;
+                        
+                        $('#result-jadwal').empty().append(content);
+                    }
+                    else {
+                        $('#result-jadwal').empty().append(`
+                            <tr>
+                                <td colspan="4" class="text-center"><strong>Belum ada jadwal</strong>
+                                </td>
+                            </tr>
+                        `);
+                    }  
+                } 
+            });
+        });
+    });
+   
+</script>
+@endpush
 @section('content')
 <div class="page-banner-wrap text-center bg-cover"
     style="background-image: url('{{ asset('assets/img/page-banner2.jpg') }}')">
@@ -37,7 +157,7 @@
                     <div class="request-quote-form-wrapper mt-5 mt-xl-0">
                         <h4>Rute Kapal</h4>
                         <div class="request-quote-form">
-                            <form action="#" method="POST">
+                            <form action="#" method="POST" id="cekjadwal">
                                 @csrf
                                 <div class="row d-flex align-item-center">
                                     <div class="col-sm-12 col-12">
@@ -49,54 +169,18 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-3 offset-sm-9">
-                                        <input type="submit" class="theme-btn" value="Cari">
+                                        <button type="submit" class="theme-btn">Cek Jadwal</button>
                                     </div>
+                                </div>
+                                <div class="row mt-5 result" id="result-jadwal">
+
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-            @if(isset($jadwal_kapal))
-            <div class="row mt-5">
-                <h4>Jawal Kapal {{ $rute_only[0]}}</h4>
-                <div class="col-lg-12 col-md-12 col-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped">
-                            <thead class="table-dark">
-                                <tr>
-                                    <th>Closing</th>
-                                    <th>Berangkat</th>
-                                    <th>Keterangan</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @forelse ($jadwal_kapal as $kapal)
-                                <tr>
-                                    <td>{{ $kapal->tgl_closing ? $kapal->tgl_closing->isoFormat('D MMMM Y') : '-' }}
-                                    </td>
-                                    <td>{{ $kapal->tgl_berangkat ? $kapal->tgl_berangkat->isoFormat('D MMMM Y') : '-' }}
-                                    </td>
-                                    <td>{{ $kapal->keterangan ?? '-' }}</td>
-                                </tr>
-                                @empty
-                                <tr>
-                                    <td colspan="4" class="text-center"><strong>Belum ada data</strong>
-                                    </td>
-                                </tr>
-                                @endforelse
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            @endif
-            @if(isset($jadwal_kapal))
-            <div class="col-lg-12 col-md-12 col-12 mt-2">
-                <strong>Penting:</strong>
-                <p>* Closing : Waktu terakhir penerimaan barang di kantor Siba Cargo</p>
-            </div>
-            @endif
+
         </div>
     </div>
 </section>

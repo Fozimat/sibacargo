@@ -76,6 +76,12 @@ Route::get('/ketentuan', [App\Http\Controllers\HomeController::class, 'ketentuan
 // Get Harga
 Route::post('/getHarga/{kota_asal}/{kota_tujuan}/{pengiriman}', [App\Http\Controllers\HomeController::class, 'getHarga'])->name('getHarga');
 
+// Get Resi
+Route::post('/getResi/{resi}', [App\Http\Controllers\HomeController::class, 'getResi'])->name('getResi');
+
+// Get Jadwal
+Route::post('/getJadwalKapal/{rute}', [App\Http\Controllers\HomeController::class, 'getJadwalKapal'])->name('getJadwalKapal');
+
 // Admin
 Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');

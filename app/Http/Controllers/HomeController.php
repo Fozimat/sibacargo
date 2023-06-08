@@ -137,6 +137,19 @@ class HomeController extends Controller
         return response()->json($query);
     }
 
+    public function getResi($resi)
+    {
+        $pesanan = PesananSibacargo::with(['daerahAsal', 'daerahTujuan', 'kustomer'])->where('resi', $resi)->first();
+        $mtc = MTC::with(['status_manifest'])->where('resi', $resi)->orderBy('id', 'DESC')->get();
+        return response()->json(['pesanan' => $pesanan, 'mtc' => $mtc]);
+    }
+
+    public function getJadwalKapal($rute)
+    {
+        $jadwal_kapal = JadwalKapal::with(['ruteKapal'])->where('rute_kapal_id', $rute)->get();
+        return response()->json($jadwal_kapal);
+    }
+
     public function jadwal_kapal()
     {
         $rute_kapal = RuteKapal::orderBy('rute', 'DESC')->orderBy('id', 'ASC')->get();
